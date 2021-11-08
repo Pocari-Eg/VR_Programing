@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CellControll : MonoBehaviour
 {
-    float CellHp = 100.0f;
+    float CellHp = 5.0f;
 
     bool ishitPlayer = false;
 
@@ -14,7 +14,7 @@ public class CellControll : MonoBehaviour
     Animator m_animator;
 
     int DieCheck = 0;
-
+   
 
     private void Start()
     {
@@ -54,13 +54,14 @@ public class CellControll : MonoBehaviour
         if (CellHp < 0.0f)
         {
             m_animator.SetTrigger("Die");
-            Player.GetComponent<PlayerData>().CellCountUp();
 
             if (DieCheck == 1)
             {
                 Object.Destroy(this.gameObject);
+                Player.GetComponent<PlayerData>().CellCountUp();
+
             }
-  
+
         }
         else  if (ishitPlayer)
         {
@@ -87,6 +88,8 @@ public class CellControll : MonoBehaviour
         DieCheck = i;
     }
 
+   
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Cell")
@@ -94,4 +97,7 @@ public class CellControll : MonoBehaviour
             Object.Destroy(this.gameObject);
         }
     }
+
+
+
 }

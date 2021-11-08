@@ -29,10 +29,22 @@ public class PlayerData : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Trap")
+        {
+
+            Object.Destroy(this.gameObject);
+        }
+    }
+
+    //colider
+
 
     //get set
- public  void SetCellCount(int m) { Cell_Count = m; }
+    public  void SetCellCount(int m) { Cell_Count = m; }
     public int GetCellCount() { return Cell_Count; }
 
     public void CellCountUp() { Cell_Count++; }
+    public void CellCountDown() { Cell_Count-=5; }
 }

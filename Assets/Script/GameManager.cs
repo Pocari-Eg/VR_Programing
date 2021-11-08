@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     GameObject CellPrefeb;
     [SerializeField]
+    GameObject WBCPrefeb;
+    [SerializeField]
     GameObject Player;
 
     float SpawnTime = 3.5f;
@@ -42,11 +44,20 @@ public class GameManager : MonoBehaviour
     void RandomSpwan()
     {
 
+        int x = Random.Range(1, 10);
         float ranX = Random.Range(-9.0f, 9.0f);
-        float ranY = Random.Range(0.0f, 3.0f);
+        float ranY = Random.Range(3.0f, 6.0f);
         float ranZ = Random.Range(-9.0f, 9.0f);
-        Instantiate(CellPrefeb, new Vector3(Player.transform.position.x +ranX, Player.transform.position.y+ranY, Player.transform.position.z+ranZ), Quaternion.identity);
+        if (x < 2)
+        {
 
+            Instantiate(WBCPrefeb, new Vector3(Player.transform.position.x + ranX, Player.transform.position.y + ranY, Player.transform.position.z + ranZ), Quaternion.identity);
+
+        }
+        else
+        {
+            Instantiate(CellPrefeb, new Vector3(Player.transform.position.x + ranX, Player.transform.position.y + ranY, Player.transform.position.z + ranZ), Quaternion.identity);
+        }
 
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - goPoint
   - Cell
+  - Trap
   layers:
   - Default
   - TransparentFX
