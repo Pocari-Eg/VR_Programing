@@ -53,20 +53,23 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\BonusStageManager.cs" />
     <Compile Include="Assets\AssetStore\SMC Pack 1\Demo\DemoAssets\V_Text.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.8.0\Hello Cardboard\Scripts\CardboardStartup.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.8.0\Hello Cardboard\Scripts\ObjectController.cs" />
+    <Compile Include="Assets\Script\WBCControl.cs" />
     <Compile Include="Assets\Script\ForceMove.cs" />
+    <Compile Include="Assets\Script\TrapScript.cs" />
     <Compile Include="Assets\Script\PlayerData.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.8.0\Hello Cardboard\Scripts\CameraPointer.cs" />
+    <Compile Include="Assets\Script\VRBtnController.cs" />
     <Compile Include="Assets\Script\CellControll.cs" />
     <Compile Include="Assets\AssetStore\SMC Pack 1\Demo\DemoAssets\V_SMC_Handler.cs" />
+    <Compile Include="Assets\Script\AttackAreaCheck.cs" />
     <Compile Include="Assets\AssetStore\SMC Pack 1\Demo\DemoAssets\V_SMC_Camera.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.8.0\Hello Cardboard\Scripts\VrModeController.cs" />
-    <Compile Include="Assets\Script\TrapScript.cs" />
-    <Compile Include="Assets\WBCControl.cs" />
-    <Compile Include="Assets\AttackAreaCheck.cs" />
+    <Compile Include="Assets\PipeStageManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

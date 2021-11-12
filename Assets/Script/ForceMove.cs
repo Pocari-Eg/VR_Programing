@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ForceMove : MonoBehaviour
 {
-    public int viewMode = 0;  // forcemove = 0, lookat = 1
+    public int viewMode ;  // forcemove = 0, lookat = 1
     public GameObject[] goPoints;
     public float rotSpeed = 2.0f;
     public float moveSpeed = 0.8f;
@@ -35,22 +35,14 @@ public class ForceMove : MonoBehaviour
     {
         if (viewMode == 0) MovePlayer();
         else if (viewMode == 1) LookAtMovePlayer();
-        else if (viewMode == 2) ForwardMove();
-    }
+        else
+        {
 
-    void ForwardMove()
-    {
-        // 현재 바라보고 있는 Camera의 방향이 플레이어가 움직이는 방향 
-        Vector3 ForwardDir = curPlayerCamera.transform.forward;
-
-        // 해당 방향의 높이 값을 0으로 주어서 움직일때 높이와 상관 없는 방향성 제시
-        ForwardDir.y = 0;
-        ForwardDir.x = 0;
-
-        // 현재 CharacterController를 SimpleMove를 통해서 이동 
-        curCharacterController.SimpleMove(ForwardDir * moveSpeed);
+        }
 
     }
+
+
     void LookAtMovePlayer()
     {
         // 현재 바라보고 있는 Camera의 방향이 플레이어가 움직이는 방향 
@@ -97,4 +89,10 @@ public class ForceMove : MonoBehaviour
         }
     }
 
+
+   public void SetViewMode(int n) { 
+        viewMode = n;
+
+        Debug.Log(viewMode);
+    }
 }

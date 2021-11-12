@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerData : MonoBehaviour
 {
 
+    
     [SerializeField]
     int Cell_Count;
     // Start is called before the first frame update
@@ -29,22 +30,24 @@ public class PlayerData : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Trap")
-        {
-
-            Object.Destroy(this.gameObject);
-        }
-    }
-
+ 
     //colider
 
+ 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.name);
+        if (other.gameObject.tag == "Trap")
+        {
+            CellCountDown(1);
+
+        }
+    }
 
     //get set
     public  void SetCellCount(int m) { Cell_Count = m; }
     public int GetCellCount() { return Cell_Count; }
 
     public void CellCountUp() { Cell_Count++; }
-    public void CellCountDown() { Cell_Count-=5; }
+    public void CellCountDown(int n) { Cell_Count-=n;  if (Cell_Count < 0) Cell_Count = 0; }
 }

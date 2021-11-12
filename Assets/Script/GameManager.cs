@@ -1,68 +1,79 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
-    [SerializeField]
-    GameObject CellPrefeb;
-    [SerializeField]
-    GameObject WBCPrefeb;
+    BonusStageManager m_bonusStage;
+    PipeStageManager m_PipeStage;
+    // Start is called before the first frame update
+
     [SerializeField]
     GameObject Player;
 
-    float SpawnTime = 3.5f;
+    [SerializeField]
+    GameObject EndUI;
+    [SerializeField]
+    Text CellCount;
+    int cellnum;
 
-    float[] random = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-    // Start is called before the first frame update
+    public bool BounsStageOn = false;
+
+    public bool PipeStageOn = false;
+ 
+    private void Awake()
+    {
+        m_bonusStage = this.gameObject.GetComponent<BonusStageManager>();
+        m_PipeStage= this.gameObject.GetComponent<PipeStageManager>();
+
+    }
     void Start()
     {
-      
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+        if (!BounsStageOn)
+        {
+          
+            m_bonusStage.enabled = false;
+            m_bonusStage.StageOff();
+        }
+      else  if (BounsStageOn)
+        {
+            Player.GetComponent<ForceMove>().SetViewMode(2);
+            m_bonusStage.enabled = true;
+            m_bonusStage.StageOn();
+        }
+ 
+         if (!PipeStageOn)
+        {
+          
+            m_PipeStage.enabled = false;
+            m_PipeStage.StageOff();
+        }
+
+      else  if (PipeStageOn)
+        {
+            Player.GetComponent<ForceMove>().SetViewMode(1);
+            m_PipeStage.enabled = true;
+            m_PipeStage.StageOn();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        SpawnCell();
+        
+        if (Player.GetComponent<PlayerData>().GetCellCount() <= 0)
+        {
+           
+            EndUI.SetActive(true);
+        }
+        cellnum = Player.GetComponent<PlayerData>().GetCellCount();
+        CellCount.text = cellnum.ToString();
     }
 
 
-    void SpawnCell()
+    public void GameQuit()
     {
-        if (SpawnTime > 0.0f)
-        {
-            SpawnTime -= Time.deltaTime;
-        }
-        else
-        {
-            RandomSpwan();
-            SpawnTime = 3.5f;
-        }
-            
-      }
-
-    void RandomSpwan()
-    {
-
-        int x = Random.Range(1, 10);
-        float ranX = Random.Range(-9.0f, 9.0f);
-        float ranY = Random.Range(3.0f, 6.0f);
-        float ranZ = Random.Range(-9.0f, 9.0f);
-        if (x < 2)
-        {
-
-            Instantiate(WBCPrefeb, new Vector3(Player.transform.position.x + ranX, Player.transform.position.y + ranY, Player.transform.position.z + ranZ), Quaternion.identity);
-
-        }
-        else
-        {
-            Instantiate(CellPrefeb, new Vector3(Player.transform.position.x + ranX, Player.transform.position.y + ranY, Player.transform.position.z + ranZ), Quaternion.identity);
-        }
-
+        Application.Quit();
     }
 }
-
-
- 
-
-
