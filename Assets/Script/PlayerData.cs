@@ -26,7 +26,7 @@ public class PlayerData : MonoBehaviour
     }
     void InitPlayer()
     {
-        Cell_Count = 15;
+        Cell_Count = 5;
 
     }
 
@@ -40,6 +40,11 @@ public class PlayerData : MonoBehaviour
         if (other.gameObject.tag == "Trap")
         {
             CellCountDown(1);
+
+        }
+        if (other.gameObject.tag == "End")
+        {
+            Application.Quit();
 
         }
     }
