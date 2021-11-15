@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
         {
            
             EndUI.SetActive(true);
+            Player.GetComponent<ForceMove>().viewMode = 2;
         }
         cellnum = Player.GetComponent<PlayerData>().GetCellCount();
         CellCount.text = cellnum.ToString();
