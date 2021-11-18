@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class BonusStageManager : MonoBehaviour
 {
-
+    public static BonusStageManager instance;
 
     [SerializeField]
-    GameObject[] BonusStage;
+    GameObject BonusStage;
     [SerializeField]
     GameObject CellPrefeb;
     [SerializeField]
@@ -18,6 +18,8 @@ public class BonusStageManager : MonoBehaviour
     [SerializeField]
     GameObject StartUI;
 
+
+    
     float SpawnTime = 3.5f;
 
    
@@ -26,11 +28,14 @@ public class BonusStageManager : MonoBehaviour
     float[] random = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
 
+    [SerializeField]
     bool GameStart = false;
     // Start is called before the first frame update
     void Start()
     {
-       
+        instance = this;
+
+
     }
 
     // Update is called once per frame
@@ -61,7 +66,7 @@ public class BonusStageManager : MonoBehaviour
     private void FixedUpdate()
     {
        
-        cellnum = Player.GetComponent<PlayerData>().GetCellCount();
+       // cellnum = Player.GetComponent<PlayerData>().GetCellCount();
     }
 
     void SpawnCell()
@@ -100,6 +105,7 @@ public class BonusStageManager : MonoBehaviour
 
     public void OnGameStart()
     {
+        StageOn();
         GameStart = true;
         StartUI.SetActive(false);
     }
@@ -107,21 +113,42 @@ public class BonusStageManager : MonoBehaviour
    
     public void StageOn()
     {
-       for(int i=0;i< BonusStage.Length; i++)
+        Player.GetComponent<CapsuleCollider>().enabled = false;
+
+
+
+        Player.GetComponent<CharacterController>().center = new Vector3(0, 0.0f, 0);
+        Player.GetComponent<CharacterController>().radius = 1.5f;
+        Player.GetComponent<CharacterController>().height = 1;
+        switch (GameManager.instasnce.curStage)
         {
-            BonusStage[i].SetActive(true);
+            case GameManager.StageNum.Respiratory:
+                this.gameObject.GetComponent<RespiratoryStageManager>().StageOff();
+                break;
+            case GameManager.StageNum.Stomach:
+                break;
+            case GameManager.StageNum.Intestine:
+                break;
+            default:
+                break;
         }
-        Player.GetComponent<SphereCollider>().enabled = true;
+
+           BonusStage.SetActive(true);
+        BonusStage.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y - 2.18f, Player.transform.position.z);
+      
     }
     public void StageOff()
     {
-        for (int i = 0; i < BonusStage.Length; i++)
-        {
-            BonusStage[i].SetActive(false);
-        }
+     
+            BonusStage.SetActive(false);
+     
         Player.GetComponent<SphereCollider>().enabled = false;
     }
   
+    public void startUiOn()
+    {
+        StartUI.SetActive(true);
+    }
 }
 
 

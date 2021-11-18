@@ -6,8 +6,8 @@ ScriptsOnlyBuild:
     - CellControll
     - ForceMove
     - GameManager
-    - PipeStageManager
     - PlayerData
+    - RespiratoryStageManager
     - VRBtnController
     - WBCControl
     Google.XR.Cardboard.dll:
@@ -183,10 +183,10 @@ ScriptsOnlyBuild:
     className: TransitionArmModel
   - hash:
       serializedVersion: 2
-      Hash: b99f36012db911de02e3802d69e61ef1
+      Hash: 1665f704c7eb4747299355a2c8cb0b32
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PipeStageManager
+    className: RespiratoryStageManager
   - hash:
       serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
@@ -249,7 +249,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 30548d53216f24aa3d5065a0059c86ab
+      Hash: 1a0079831f8676dfc95e93b3d22ca014
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BonusStageManager
@@ -729,7 +729,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 0bbc0df457fc463fe754e10fdb806da1
+      Hash: 3b89d8752bc7749801c3554f333a6f56
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -784,4 +784,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: Z:/HDD1/vrtest.apk
+  playerPath: Z:/HDD1/Vrtest.apk

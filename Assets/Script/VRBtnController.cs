@@ -57,6 +57,7 @@ public class VRBtnController : MonoBehaviour
     {
         Debug.Log("OnPointerEnter UI");
         bPressBtn = true;
+        Debug.Log(bPressBtn);
         PointerEventData data = new PointerEventData(EventSystem.current);
         ExecuteEvents.Execute(gameObject, data, ExecuteEvents.pointerEnterHandler);
     }

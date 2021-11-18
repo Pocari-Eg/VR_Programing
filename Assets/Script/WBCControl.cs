@@ -137,7 +137,7 @@ public class WBCControl : MonoBehaviour
     }
     void AttakcAniEnd(int i)
     {
-        Player.GetComponent<PlayerData>().CellCountDown(5);
+        Player.GetComponent<PlayerData>().CellCountDown(2);
         AttackCheck = i;
     }
     private void OnCollisionEnter(Collision collision)
@@ -158,6 +158,16 @@ public class WBCControl : MonoBehaviour
     {
         Debug.Log("충돌");
         if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("플레이어 충돌");
+
+            attackAreaIn = true;
+
+        }
+    }
+    private void OnCollisionEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "Player")
         {
             Debug.Log("플레이어 충돌");
 

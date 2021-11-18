@@ -1218,6 +1218,8 @@ public:
 
 // System.Boolean UnityEngine.CharacterController::SimpleMove_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_SimpleMove_Injected_m4EAE4B1A1B381DEA23D237C276C8298326D43A89 (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___speed0, const RuntimeMethod* method);
+// System.Void UnityEngine.CharacterController::set_center_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterController_set_center_Injected_m109300DB41613E5923E8F9997A73FCA602425C45 (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___value0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___x0, Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___y1, const RuntimeMethod* method);
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
@@ -1334,6 +1336,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_SimpleMove_m13296E15
 		return L_0;
 	}
 }
+// System.Void UnityEngine.CharacterController::set_radius(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterController_set_radius_m3897C84027D51B4F588265C0BE8EBE8C75C6CE05 (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, float ___value0, const RuntimeMethod* method)
+{
+	typedef void (*CharacterController_set_radius_m3897C84027D51B4F588265C0BE8EBE8C75C6CE05_ftn) (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E *, float);
+	static CharacterController_set_radius_m3897C84027D51B4F588265C0BE8EBE8C75C6CE05_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CharacterController_set_radius_m3897C84027D51B4F588265C0BE8EBE8C75C6CE05_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CharacterController::set_radius(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.CharacterController::set_height(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterController_set_height_mFB92FB8C399DFA2BDCC95531862E0066CC492194 (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, float ___value0, const RuntimeMethod* method)
+{
+	typedef void (*CharacterController_set_height_mFB92FB8C399DFA2BDCC95531862E0066CC492194_ftn) (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E *, float);
+	static CharacterController_set_height_mFB92FB8C399DFA2BDCC95531862E0066CC492194_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CharacterController_set_height_mFB92FB8C399DFA2BDCC95531862E0066CC492194_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CharacterController::set_height(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.CharacterController::set_center(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterController_set_center_m56DA4263FD50B7A39715D8A6E5C526B67DB6EECB (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___value0, const RuntimeMethod* method)
+{
+	{
+		CharacterController_set_center_Injected_m109300DB41613E5923E8F9997A73FCA602425C45(__this, (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&___value0), /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Boolean UnityEngine.CharacterController::SimpleMove_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_SimpleMove_Injected_m4EAE4B1A1B381DEA23D237C276C8298326D43A89 (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___speed0, const RuntimeMethod* method)
 {
@@ -1343,6 +1371,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_SimpleMove_Injected_
 	_il2cpp_icall_func = (CharacterController_SimpleMove_Injected_m4EAE4B1A1B381DEA23D237C276C8298326D43A89_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CharacterController::SimpleMove_Injected(UnityEngine.Vector3&)");
 	bool icallRetVal = _il2cpp_icall_func(__this, ___speed0);
 	return icallRetVal;
+}
+// System.Void UnityEngine.CharacterController::set_center_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterController_set_center_Injected_m109300DB41613E5923E8F9997A73FCA602425C45 (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*CharacterController_set_center_Injected_m109300DB41613E5923E8F9997A73FCA602425C45_ftn) (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E *, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *);
+	static CharacterController_set_center_Injected_m109300DB41613E5923E8F9997A73FCA602425C45_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CharacterController_set_center_Injected_m109300DB41613E5923E8F9997A73FCA602425C45_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CharacterController::set_center_Injected(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

@@ -11,7 +11,7 @@ public class PlayerData : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        InitPlayer();
+     
     }
 
     void Start()
@@ -24,11 +24,7 @@ public class PlayerData : MonoBehaviour
     {
         
     }
-    void InitPlayer()
-    {
-        Cell_Count = 5;
-
-    }
+ 
 
  
     //colider
@@ -36,16 +32,19 @@ public class PlayerData : MonoBehaviour
  
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
         if (other.gameObject.tag == "Trap")
         {
             CellCountDown(1);
 
         }
-        if (other.gameObject.tag == "End")
+   if(other.gameObject.tag=="Goal")
         {
-            Application.Quit();
+            Debug.Log("Å¬¸®¾î");
+            other.gameObject.SetActive(false);
+            this.GetComponent<ForceMove>().viewMode = 3;
+            BonusStageManager.instance.startUiOn();
 
+          
         }
     }
 

@@ -28,7 +28,13 @@ public class CellControll : MonoBehaviour
 
         Cell_hit();
 
-        
+            if (DieCheck == 1)
+            {
+                Player.GetComponent<PlayerData>().CellCountUp();
+                Object.Destroy(this.gameObject);
+                
+
+            }
 
 
     }
@@ -55,12 +61,7 @@ public class CellControll : MonoBehaviour
         {
             m_animator.SetTrigger("Die");
 
-            if (DieCheck == 1)
-            {
-                Object.Destroy(this.gameObject);
-                Player.GetComponent<PlayerData>().CellCountUp();
-
-            }
+        
 
         }
         else  if (ishitPlayer)

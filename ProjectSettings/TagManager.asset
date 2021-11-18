@@ -8,6 +8,8 @@ TagManager:
   - Cell
   - Trap
   - End
+  - Goal
+  - UI
   layers:
   - Default
   - TransparentFX
