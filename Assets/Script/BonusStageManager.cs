@@ -17,19 +17,19 @@ public class BonusStageManager : MonoBehaviour
     GameObject Player;
     [SerializeField]
     GameObject StartUI;
-
+    [SerializeField]
+    GameObject m_Camera;
 
     
     float SpawnTime = 3.5f;
 
-   
+    public bool GameStart;
 
     int cellnum;
     float[] random = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
 
-    [SerializeField]
-    bool GameStart = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -66,7 +66,7 @@ public class BonusStageManager : MonoBehaviour
     private void FixedUpdate()
     {
        
-       // cellnum = Player.GetComponent<PlayerData>().GetCellCount();
+        cellnum = Player.GetComponent<PlayerData>().GetCellCount();
     }
 
     void SpawnCell()
@@ -108,9 +108,11 @@ public class BonusStageManager : MonoBehaviour
         StageOn();
         GameStart = true;
         StartUI.SetActive(false);
+        GameManager.instasnce.UIControllOff();
+
     }
 
-   
+
     public void StageOn()
     {
         Player.GetComponent<CapsuleCollider>().enabled = false;
@@ -147,7 +149,9 @@ public class BonusStageManager : MonoBehaviour
   
     public void startUiOn()
     {
+        GameManager.instasnce.UIControllOn();
         StartUI.SetActive(true);
+       
     }
 }
 

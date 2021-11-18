@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraPointerExt : MonoBehaviour
@@ -25,18 +24,18 @@ public class CameraPointerExt : MonoBehaviour
             if (_gazedAtObject != hit.transform.gameObject)
             {
                 // New GameObject.
-
-               _gazedAtObject?.SendMessage("OnUIPointerExit");
+                if (_gazedAtObject != null)
+                    _gazedAtObject?.SendMessage("OnUIPointerExit");
                 _gazedAtObject = hit.transform.gameObject;
                 Debug.Log(_gazedAtObject);
                 _gazedAtObject.SendMessage("OnUIPointerEnter");
-
+            }
             }
             else
             {
-                // No GameObject detected in front of the camera.
+            // No GameObject detected in front of the camera.
 
-
+            if (_gazedAtObject != null)
                 _gazedAtObject?.SendMessage("OnUIPointerExit");
 
                 _gazedAtObject = null;
@@ -49,4 +48,4 @@ public class CameraPointerExt : MonoBehaviour
             }
         }
     }
-}
+

@@ -14,8 +14,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     GameObject Player;
+    [SerializeField]
+    GameObject m_Camera;
 
-      [SerializeField]
+    [SerializeField]
     Text CellCount;
     int cellnum;
 
@@ -36,7 +38,7 @@ public class GameManager : MonoBehaviour
     {
         StartSet();
         m_PipeStage.StageOn();
-
+        UIControllOn();
     }
 
     // Update is called once per frame
@@ -51,10 +53,22 @@ public class GameManager : MonoBehaviour
     void StartSet()
     {
         Player.GetComponent<PlayerData>().SetCellCount(15);
-        Player.GetComponent<ForceMove>().viewMode = 3 ;
+        Player.GetComponent<ForceMove>().viewMode = 1 ;
     }
     public void GameQuit()
     {
         Application.Quit();
+    }
+
+    public void UIControllOn()
+    {
+        m_Camera.GetComponent<CameraPointer>().enabled = false;
+        m_Camera.GetComponent<CameraPointerExt>().enabled = true;
+    }
+
+    public void UIControllOff()
+    {
+        m_Camera.GetComponent<CameraPointer>().enabled = true;
+        m_Camera.GetComponent<CameraPointerExt>().enabled = false;
     }
 }

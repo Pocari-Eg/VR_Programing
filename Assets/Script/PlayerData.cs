@@ -41,7 +41,7 @@ public class PlayerData : MonoBehaviour
         {
             Debug.Log("Å¬¸®¾î");
             other.gameObject.SetActive(false);
-            this.GetComponent<ForceMove>().viewMode = 3;
+            this.GetComponent<ForceMove>().viewMode = 1;
             BonusStageManager.instance.startUiOn();
 
           

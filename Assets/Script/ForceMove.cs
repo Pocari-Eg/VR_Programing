@@ -62,9 +62,5 @@ public class ForceMove : MonoBehaviour
    
 
 
-   public void SetViewMode(int n) { 
-        viewMode = n;
 
-        Debug.Log(viewMode);
-    }
 }

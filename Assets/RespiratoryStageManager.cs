@@ -54,9 +54,9 @@ public class RespiratoryStageManager : MonoBehaviour
     public void StageStart()
     {
         StartDialog.SetActive(false);
-        Player.GetComponent<ForceMove>().viewMode = 1;
-   
-      
+        Player.GetComponent<ForceMove>().OnChangePlayerMode(0);
+        GameManager.instasnce.UIControllOff();
+
     }
     public void StageOff()
     {

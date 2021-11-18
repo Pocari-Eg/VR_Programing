@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15234134}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.57, z: 5.99}
+  m_LocalPosition: {x: 0, y: -1.57, z: 5.989998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1002421841}
@@ -672,7 +672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129157623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.94, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 246838274}
@@ -4417,8 +4417,8 @@ GameObject:
   - component: {fileID: 1000058175}
   - component: {fileID: 1000058174}
   - component: {fileID: 1000058173}
-  - component: {fileID: 1000058172}
   - component: {fileID: 1000058171}
+  - component: {fileID: 1000058172}
   m_Layer: 5
   m_Name: StartBtn
   m_TagString: Untagged
@@ -4468,7 +4468,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000058169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cff4bd1a01a774f428b2ea02b7379dd4, type: 3}
+  m_Script: {fileID: 11500000, guid: 10a8bdac08dd51a4db2a6dd90c081fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectedBtnTime: 3
@@ -4604,7 +4604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 3.26}
+  m_AnchoredPosition: {x: 0, y: 1.5}
   m_SizeDelta: {x: 3, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1002421842
@@ -5681,7 +5681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239224611}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.1, y: 12.8, z: 28.3}
+  m_LocalPosition: {x: 3.2, y: 12.8, z: 52.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1032217035}
@@ -5803,7 +5803,8 @@ MonoBehaviour:
   WBCPrefeb: {fileID: 3455994490909596125, guid: eceeab97e4c96b8478a7b5bf9b0aee71, type: 3}
   Player: {fileID: 1545557503}
   StartUI: {fileID: 1611162073}
-  GameStart: 0
+  m_Camera: {fileID: 129157623}
+  GameStart: 1
 --- !u!4 &1257436327
 Transform:
   m_ObjectHideFlags: 0
@@ -5831,6 +5832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1545557503}
+  m_Camera: {fileID: 129157623}
   CellCount: {fileID: 218952141}
   curStage: 1
 --- !u!114 &1257436329
@@ -5847,9 +5849,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RespiratoryStage:
   - {fileID: 1032217034}
-  - {fileID: 1472010739}
+  - {fileID: 1611162073}
   StartPosition: {fileID: 1474616795}
-  StartDialog: {fileID: 1472010739}
+  StartDialog: {fileID: 1611162073}
   Player: {fileID: 1545557503}
 --- !u!1001 &1260862632
 PrefabInstance:
@@ -8875,8 +8877,8 @@ GameObject:
   - component: {fileID: 1919245588}
   - component: {fileID: 1919245587}
   - component: {fileID: 1919245586}
-  - component: {fileID: 1919245585}
   - component: {fileID: 1919245584}
+  - component: {fileID: 1919245585}
   m_Layer: 5
   m_Name: EndBtn
   m_TagString: Untagged
@@ -8926,7 +8928,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1919245582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cff4bd1a01a774f428b2ea02b7379dd4, type: 3}
+  m_Script: {fileID: 11500000, guid: 10a8bdac08dd51a4db2a6dd90c081fa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectedBtnTime: 3
