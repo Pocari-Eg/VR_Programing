@@ -29,8 +29,9 @@ public class ForceMove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update() { 
-     if (viewMode == 0) LookAtMovePlayer();
+    void Update() {
+        if (viewMode == 0) LookAtMovePlayer();
+      //  else if (viewMode == 2) StandPlayer();
         else
         {
 
@@ -50,9 +51,18 @@ public class ForceMove : MonoBehaviour
 
         // 현재 CharacterController를 SimpleMove를 통해서 이동 
         curCharacterController.SimpleMove(ForwardDir * moveSpeed);
+    
     }
 
+        void StandPlayer()
+    {
 
+
+        // 현재 CharacterController를 SimpleMove를 통해서 이동
+    
+        curCharacterController.SimpleMove(Vector3.zero);
+
+    }
 
     public void OnChangePlayerMode(int playerMode)
     {
@@ -60,7 +70,10 @@ public class ForceMove : MonoBehaviour
     }
 
    
-
+    public void debugpos()
+    {
+        Debug.Log(this.gameObject.transform.position);
+    }
 
 
 }

@@ -37,7 +37,13 @@ public class PlayerData : MonoBehaviour
             CellCountDown(1);
 
         }
-   if(other.gameObject.tag=="Goal")
+        else if (other.gameObject.tag == "Lava")
+        {
+            CellCountDown(1);
+            this.gameObject.transform.position = GameObject.FindGameObjectWithTag("TP").GetComponent<TelePort>().BackPos();
+
+        }
+        if (other.gameObject.tag=="Goal")
         {
             Debug.Log("Å¬¸®¾î");
             other.gameObject.SetActive(false);
@@ -46,6 +52,7 @@ public class PlayerData : MonoBehaviour
 
           
         }
+    
     }
 
     //get set
@@ -54,4 +61,11 @@ public class PlayerData : MonoBehaviour
 
     public void CellCountUp() { Cell_Count++; }
     public void CellCountDown(int n) { Cell_Count-=n;  if (Cell_Count < 0) Cell_Count = 0; }
+
+    public void Jump()
+    {
+        this.gameObject.GetComponent<Rigidbody>().velocity += new Vector3(0.0f, 3.0f, 3.0f);
+    }
+
+
 }

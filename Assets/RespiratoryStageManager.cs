@@ -47,7 +47,7 @@ public class RespiratoryStageManager : MonoBehaviour
         {
             RespiratoryStage[i].SetActive(true);
         }
-        
+        Player.transform.position = StartPosition.transform.position;
 
     }
 

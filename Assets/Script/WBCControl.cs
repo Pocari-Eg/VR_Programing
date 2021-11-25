@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class WBCControl : MonoBehaviour
 {
+    [SerializeField]
+    GameObject HpBar;
     float CellHp = 3.0f;
 
     bool ishitPlayer = false;
@@ -23,7 +25,7 @@ public class WBCControl : MonoBehaviour
     public bool attackAreaIn = false;
     bool AttackMode = false;
 
-
+    bool HitDead = false;
     private void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
@@ -35,10 +37,10 @@ public class WBCControl : MonoBehaviour
     private void Update()
     {
 
-    
+        HpBar.GetComponent<Image>().fillAmount = CellHp / 3f;
 
-      //  Debug.Log(AttackTime);
-       
+        //  Debug.Log(AttackTime);
+
         if (AttackTime >= 0.0f)
         {
 
@@ -75,7 +77,12 @@ public class WBCControl : MonoBehaviour
 
         if (DieCheck == 1)
         {
-            Object.Destroy(this.gameObject);
+
+            if (HitDead == true)
+            {
+                Player.GetComponent<PlayerData>().CellCountUp();
+            }
+                Object.Destroy(this.gameObject);
            
 
         }
@@ -84,9 +91,9 @@ public class WBCControl : MonoBehaviour
     {
         if (AttackMode == false)
         {
-            Debug.Log("OnPointerEnter");
-            Renderer.GetComponent<SkinnedMeshRenderer>().material.color = Color.blue;
             m_animator.SetBool("Hit", true);
+            Debug.Log("OnPointerEnter");
+            Renderer.GetComponent<SkinnedMeshRenderer>().material.color = new Color(0.42f, 1.0f, 0.0f);
             ishitPlayer = true;
         }
         
@@ -94,9 +101,10 @@ public class WBCControl : MonoBehaviour
     public void OnPointerExit()
     {
 
+        m_animator.SetBool("Hit", false);
+
         Debug.Log("OnPointerExit");
         Renderer.GetComponent<SkinnedMeshRenderer>().material.color = Color.white;
-        m_animator.SetBool("Hit", false);
 
         ishitPlayer = false;
 
@@ -107,20 +115,20 @@ public class WBCControl : MonoBehaviour
         if (CellHp < 0.0f)
         {
             m_animator.SetTrigger("Die");
-            Player.GetComponent<PlayerData>().CellCountUp();
+            HitDead = true;
 
 
         }
         else if (ishitPlayer)
         {
-            CellHp -= Time.deltaTime;
+            CellHp -= Time.deltaTime * 1.0f;
             Debug.Log(CellHp);
         }
         if (!ishitPlayer)
         {
             if (CellHp < 3.0f && CellHp > 0.0f)
             {
-                CellHp += Time.deltaTime;
+                CellHp += Time.deltaTime * 1.0f;
             }
             else if (CellHp > 3.0f)
             {

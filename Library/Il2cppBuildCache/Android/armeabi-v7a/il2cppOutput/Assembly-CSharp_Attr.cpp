@@ -659,6 +659,13 @@ static void BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAt
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
+static void BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAttributesCacheGenerator_TimerUI(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
 static void BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAttributesCacheGenerator_m_Camera(CustomAttributesCache* cache)
 {
 	{
@@ -666,7 +673,21 @@ static void BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAt
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
+static void BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAttributesCacheGenerator_time_Max(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
 static void CellControll_tB3EA11284FA590F100ABB54E3FAB4D7834A330E6_CustomAttributesCacheGenerator_Renderer(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void CellControll_tB3EA11284FA590F100ABB54E3FAB4D7834A330E6_CustomAttributesCacheGenerator_HpBar(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
@@ -694,7 +715,21 @@ static void GameManager_t9013B33302D2B40A51D0E8059DEE0DC180218AA1_CustomAttribut
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
+static void GameManager_t9013B33302D2B40A51D0E8059DEE0DC180218AA1_CustomAttributesCacheGenerator_GameOverUI(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
 static void PlayerData_t8CF0E5D9EE572FFF7E0B41DA391376CF0AB8EBB5_CustomAttributesCacheGenerator_Cell_Count(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void WBCControl_t3486FEBE040A747BCE747E828A9E8F198F852AF3_CustomAttributesCacheGenerator_HpBar(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
@@ -709,6 +744,62 @@ static void WBCControl_t3486FEBE040A747BCE747E828A9E8F198F852AF3_CustomAttribute
 	}
 }
 static void WBCControl_t3486FEBE040A747BCE747E828A9E8F198F852AF3_CustomAttributesCacheGenerator_moveSpeed(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_StomachStage(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_StartPosition(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_StartDialog(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_Player(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_TelePortObj(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void TelePort_t47C82D87AEFE9000B4DF0D8D40EE5E47F2B78F7C_CustomAttributesCacheGenerator_Player(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void TelePort_t47C82D87AEFE9000B4DF0D8D40EE5E47F2B78F7C_CustomAttributesCacheGenerator_Marker(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void TelePort_t47C82D87AEFE9000B4DF0D8D40EE5E47F2B78F7C_CustomAttributesCacheGenerator_moveSpeed(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
@@ -730,7 +821,7 @@ static void U3CPrivateImplementationDetailsU3E_t6BC7664D9CD46304D39A7D175BB8FFBE
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[28] = 
+const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[41] = 
 {
 	U3CStartXRU3Ed__8_t80A586ABF39410B599EE40D483232DC0D85DDCDC_CustomAttributesCacheGenerator,
 	U3CPrivateImplementationDetailsU3E_t6BC7664D9CD46304D39A7D175BB8FFBE0B9F4528_CustomAttributesCacheGenerator,
@@ -744,14 +835,27 @@ const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[28]
 	BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAttributesCacheGenerator_WBCPrefeb,
 	BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAttributesCacheGenerator_Player,
 	BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAttributesCacheGenerator_StartUI,
+	BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAttributesCacheGenerator_TimerUI,
 	BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAttributesCacheGenerator_m_Camera,
+	BonusStageManager_t26687D57E2C9FF2C8E657C35358EE5734E603F03_CustomAttributesCacheGenerator_time_Max,
 	CellControll_tB3EA11284FA590F100ABB54E3FAB4D7834A330E6_CustomAttributesCacheGenerator_Renderer,
+	CellControll_tB3EA11284FA590F100ABB54E3FAB4D7834A330E6_CustomAttributesCacheGenerator_HpBar,
 	GameManager_t9013B33302D2B40A51D0E8059DEE0DC180218AA1_CustomAttributesCacheGenerator_Player,
 	GameManager_t9013B33302D2B40A51D0E8059DEE0DC180218AA1_CustomAttributesCacheGenerator_m_Camera,
 	GameManager_t9013B33302D2B40A51D0E8059DEE0DC180218AA1_CustomAttributesCacheGenerator_CellCount,
+	GameManager_t9013B33302D2B40A51D0E8059DEE0DC180218AA1_CustomAttributesCacheGenerator_GameOverUI,
 	PlayerData_t8CF0E5D9EE572FFF7E0B41DA391376CF0AB8EBB5_CustomAttributesCacheGenerator_Cell_Count,
+	WBCControl_t3486FEBE040A747BCE747E828A9E8F198F852AF3_CustomAttributesCacheGenerator_HpBar,
 	WBCControl_t3486FEBE040A747BCE747E828A9E8F198F852AF3_CustomAttributesCacheGenerator_Renderer,
 	WBCControl_t3486FEBE040A747BCE747E828A9E8F198F852AF3_CustomAttributesCacheGenerator_moveSpeed,
+	StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_StomachStage,
+	StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_StartPosition,
+	StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_StartDialog,
+	StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_Player,
+	StomachStageManager_t881F7DDF3D12CF03C536B7CA202837FA5A4EAA80_CustomAttributesCacheGenerator_TelePortObj,
+	TelePort_t47C82D87AEFE9000B4DF0D8D40EE5E47F2B78F7C_CustomAttributesCacheGenerator_Player,
+	TelePort_t47C82D87AEFE9000B4DF0D8D40EE5E47F2B78F7C_CustomAttributesCacheGenerator_Marker,
+	TelePort_t47C82D87AEFE9000B4DF0D8D40EE5E47F2B78F7C_CustomAttributesCacheGenerator_moveSpeed,
 	V_SMC_Handler_t247E9BA27F2282B88CAC410E3EDE587CB7BA8921_CustomAttributesCacheGenerator_curCrossHair,
 	VrModeController_tB06B91255F46A0456E69DDF20B0915136321030A_CustomAttributesCacheGenerator_VrModeController_StartXR_m3E9FF326A5B4CB0E1EB19F1321EE5C4B3F90C9BC,
 	U3CStartXRU3Ed__8_t80A586ABF39410B599EE40D483232DC0D85DDCDC_CustomAttributesCacheGenerator_U3CStartXRU3Ed__8__ctor_mD007A65DA85A3644E369E5C6D8069F590C809CFA,
