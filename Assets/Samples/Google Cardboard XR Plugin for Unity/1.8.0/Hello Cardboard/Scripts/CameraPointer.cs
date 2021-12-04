@@ -24,7 +24,7 @@ using UnityEngine;
 /// </summary>
 public class CameraPointer : MonoBehaviour
 {
-    private const float _maxDistance = 20;
+    private const float _maxDistance = 30;
     private GameObject _gazedAtObject = null;
 
     /// <summary>
@@ -42,9 +42,11 @@ public class CameraPointer : MonoBehaviour
             {
                 // New GameObject.
                 if (_gazedAtObject != null)
+              
                     _gazedAtObject?.SendMessage("OnPointerExit");
-                _gazedAtObject = hit.transform.gameObject;
-                _gazedAtObject.SendMessage("OnPointerEnter");
+                    _gazedAtObject = hit.transform.gameObject;
+                    _gazedAtObject.SendMessage("OnPointerEnter");
+              
             }
         }
         else

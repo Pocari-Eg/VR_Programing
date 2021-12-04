@@ -91,9 +91,12 @@ public class GameManager : MonoBehaviour
         {
             case GameManager.StageNum.Respiratory:
                 m_ResStage.StageOn();
+                m_bonusStage.Reset_Timer();
+
                 break;
             case GameManager.StageNum.Stomach:
                 m_StomStage.StageOn();
+                m_bonusStage.Reset_Timer();
                 break;
             case GameManager.StageNum.Intestine:
                 break;

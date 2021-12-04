@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PlayerData : MonoBehaviour
 {
-
+    [SerializeField]
+    GameObject HpBar;
     
     [SerializeField]
     int Cell_Count;
@@ -22,7 +23,7 @@ public class PlayerData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        HpBar.GetComponent<Image>().fillAmount =((float) Cell_Count) / 30f;
     }
  
 
@@ -40,7 +41,7 @@ public class PlayerData : MonoBehaviour
         else if (other.gameObject.tag == "Lava")
         {
             CellCountDown(1);
-            this.gameObject.transform.position = GameObject.FindGameObjectWithTag("TP").GetComponent<TelePort>().BackPos();
+            this.gameObject.transform.position = GameObject.FindGameObjectWithTag("TP").GetComponent<TelePort>().BackPos();  
 
         }
         if (other.gameObject.tag=="Goal")

@@ -71,13 +71,28 @@
     <Compile Include="Assets\AssetStore\SMC Pack 1\Demo\DemoAssets\V_SMC_Handler.cs" />
     <Compile Include="Assets\Script\AttackAreaCheck.cs" />
     <Compile Include="Assets\AssetStore\SMC Pack 1\Demo\DemoAssets\V_SMC_Camera.cs" />
+    <Compile Include="Assets\Uv_Animaiton.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.8.0\Hello Cardboard\Scripts\VrModeController.cs" />
     <Compile Include="Assets\VRUIController.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ResizePanel.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ShowSliderValue.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\DragMe.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\TiltWindow.cs" />
+    <Compile Include="Assets\Unity UI Samples\Scripts\ApplicationManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Unity UI Samples\Textures and Sprites\SF UI\Background\LICENSE.txt" />
     <None Include="Assets\TSF\Shaders\TSF.shader" />
+    <None Include="Assets\Unity UI Samples\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\TSF\Shaders\TSFOutline.shader" />
+    <None Include="Assets\Unity UI Samples\Fonts\Jupiter\LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

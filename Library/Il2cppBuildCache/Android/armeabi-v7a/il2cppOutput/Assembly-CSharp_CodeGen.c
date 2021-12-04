@@ -266,41 +266,154 @@ extern void TelePort_setPos_m1100F21E3B85579B39EA436B2E4BF8DF7DE9E808 (void);
 extern void TelePort_BackPos_m482D6F87258433D2D4CD66739AB8C3F4C07B7D08 (void);
 // 0x0000007F System.Void TelePort::.ctor()
 extern void TelePort__ctor_m08FEC869F5B75EC93373AD101E9755541C33271D (void);
-// 0x00000080 System.Void VRUIController::Init()
+// 0x00000080 System.Void ActiveStateToggler::ToggleActive()
+extern void ActiveStateToggler_ToggleActive_mE5AFDC4E770D3AB465A4EFEC92CA40F962BCE9FA (void);
+// 0x00000081 System.Void ActiveStateToggler::.ctor()
+extern void ActiveStateToggler__ctor_m8085169E76AB400B373EFC0E5E4028E189A25028 (void);
+// 0x00000082 System.Void ApplicationManager::Quit()
+extern void ApplicationManager_Quit_m403368607C71AACA27341CA2B11F90B15D9C2275 (void);
+// 0x00000083 System.Void ApplicationManager::.ctor()
+extern void ApplicationManager__ctor_m4D923E22E12C36CD444B73E88487BB4E77A83E62 (void);
+// 0x00000084 System.Void ChangeColor::OnEnable()
+extern void ChangeColor_OnEnable_m7FE31A95B4478A63871D6365942BC37DE75B985D (void);
+// 0x00000085 System.Void ChangeColor::SetRed(System.Single)
+extern void ChangeColor_SetRed_mB0090838752887384E425FEAA937ABBEE13E4EB8 (void);
+// 0x00000086 System.Void ChangeColor::SetGreen(System.Single)
+extern void ChangeColor_SetGreen_m05B35D3F91BCA56B345321414A034A7D92D0E45B (void);
+// 0x00000087 System.Void ChangeColor::SetBlue(System.Single)
+extern void ChangeColor_SetBlue_m57D6E496618765E4DDE654275D7589AB1C409630 (void);
+// 0x00000088 System.Void ChangeColor::OnValueChanged(System.Single,System.Int32)
+extern void ChangeColor_OnValueChanged_mFA920A494A5F9749FCDBD6BFB7EC8E3D9B6172DB (void);
+// 0x00000089 System.Void ChangeColor::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+extern void ChangeColor_OnPointerClick_m7AB5B0F618C688037FB77A27B05BBCB8AA957A1F (void);
+// 0x0000008A System.Void ChangeColor::.ctor()
+extern void ChangeColor__ctor_m41B10590AF4632D7F8E7ABDD4130C5B1067561A6 (void);
+// 0x0000008B System.Void DragMe::OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+extern void DragMe_OnBeginDrag_mFC5EDC3D150A4B114381C991228B71BFCC9760C9 (void);
+// 0x0000008C System.Void DragMe::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern void DragMe_OnDrag_m7988B9DAA4376D14957C051110A049215892025D (void);
+// 0x0000008D System.Void DragMe::SetDraggedPosition(UnityEngine.EventSystems.PointerEventData)
+extern void DragMe_SetDraggedPosition_m7C8DB86B92268E42387E0E6479521095429EABDE (void);
+// 0x0000008E System.Void DragMe::OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+extern void DragMe_OnEndDrag_m24576A6489ED4643BE5BAB5FE4246EF5857AFC3E (void);
+// 0x0000008F T DragMe::FindInParents(UnityEngine.GameObject)
+// 0x00000090 System.Void DragMe::.ctor()
+extern void DragMe__ctor_mB0FCFD436CFBA38B6A39024D5BB21AE21D0CF978 (void);
+// 0x00000091 System.Void DragPanel::Awake()
+extern void DragPanel_Awake_m7730D945BF0A144028A6F53F10306D326CEE9980 (void);
+// 0x00000092 System.Void DragPanel::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void DragPanel_OnPointerDown_mFDF80CB62D238558FC69270E3F05C9BADE87DAF3 (void);
+// 0x00000093 System.Void DragPanel::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern void DragPanel_OnDrag_m11327A95544774C1FA3EFC7E5B9B2D685C6DA6A7 (void);
+// 0x00000094 System.Void DragPanel::ClampToWindow()
+extern void DragPanel_ClampToWindow_m4F9FC1B0D2B94CA8060853823AAEE496AAE38AE7 (void);
+// 0x00000095 System.Void DragPanel::.ctor()
+extern void DragPanel__ctor_mBDA15B1E481A3D5538BD1B319AE4B3B4ABF64F7F (void);
+// 0x00000096 System.Void DropMe::OnEnable()
+extern void DropMe_OnEnable_mE82969854A6362AF87DE93F1A9CBFE6B83F504E5 (void);
+// 0x00000097 System.Void DropMe::OnDrop(UnityEngine.EventSystems.PointerEventData)
+extern void DropMe_OnDrop_m3AE8F24C2C9D91DFF973EEF324CC9CB5FAD9401D (void);
+// 0x00000098 System.Void DropMe::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+extern void DropMe_OnPointerEnter_m2F6C117AF60413EBC4FB03EEB4D09EB40B3317B4 (void);
+// 0x00000099 System.Void DropMe::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+extern void DropMe_OnPointerExit_m31E7FEB688CA54F16B81A3CA8A4B21D676EDB651 (void);
+// 0x0000009A UnityEngine.Sprite DropMe::GetDropSprite(UnityEngine.EventSystems.PointerEventData)
+extern void DropMe_GetDropSprite_m2C3723D7AB5974D991F47C67F8BFB465D85DE166 (void);
+// 0x0000009B System.Void DropMe::.ctor()
+extern void DropMe__ctor_mA62B4643146CD6841C0D898D5686FEF75A7E5DF9 (void);
+// 0x0000009C System.Void PanelManager::OnEnable()
+extern void PanelManager_OnEnable_m09547ED27D87F696B41F1FAF5EFC3826F3204E2D (void);
+// 0x0000009D System.Void PanelManager::OpenPanel(UnityEngine.Animator)
+extern void PanelManager_OpenPanel_m55C75D9E37F2CDE8B1670FBF979329E5D6D13E0F (void);
+// 0x0000009E UnityEngine.GameObject PanelManager::FindFirstEnabledSelectable(UnityEngine.GameObject)
+extern void PanelManager_FindFirstEnabledSelectable_m59C12281C9EAED20F4FBB9C820D4EAD2C2DA117B (void);
+// 0x0000009F System.Void PanelManager::CloseCurrent()
+extern void PanelManager_CloseCurrent_m20DE00E5BAE15FA1D4A052E555A3CC5C58A6A695 (void);
+// 0x000000A0 System.Collections.IEnumerator PanelManager::DisablePanelDeleyed(UnityEngine.Animator)
+extern void PanelManager_DisablePanelDeleyed_mB120A21FD25F2168724F35B9FAD134487EF0507A (void);
+// 0x000000A1 System.Void PanelManager::SetSelected(UnityEngine.GameObject)
+extern void PanelManager_SetSelected_m33A82F0C75C5439BE6C1FEE4B93BF4E3949FE882 (void);
+// 0x000000A2 System.Void PanelManager::.ctor()
+extern void PanelManager__ctor_m945C0470B90313D67EDCED0D97AFADB78A190AFD (void);
+// 0x000000A3 System.Void PanelManager/<DisablePanelDeleyed>d__10::.ctor(System.Int32)
+extern void U3CDisablePanelDeleyedU3Ed__10__ctor_m3595FCFEB5B1694DEAE36303E82C43199E309861 (void);
+// 0x000000A4 System.Void PanelManager/<DisablePanelDeleyed>d__10::System.IDisposable.Dispose()
+extern void U3CDisablePanelDeleyedU3Ed__10_System_IDisposable_Dispose_m37D3EA493F4986A2E0A6263B72E96EF00126946B (void);
+// 0x000000A5 System.Boolean PanelManager/<DisablePanelDeleyed>d__10::MoveNext()
+extern void U3CDisablePanelDeleyedU3Ed__10_MoveNext_m7BFBF535CE4EBEABFFB4B592D5BA81B83152B2AD (void);
+// 0x000000A6 System.Object PanelManager/<DisablePanelDeleyed>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CDisablePanelDeleyedU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m82D3317E9507246F91AABBA087291CE3DFAD9B4C (void);
+// 0x000000A7 System.Void PanelManager/<DisablePanelDeleyed>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CDisablePanelDeleyedU3Ed__10_System_Collections_IEnumerator_Reset_mCCE2A629729D15A72499C8B3EBE2380829AA7291 (void);
+// 0x000000A8 System.Object PanelManager/<DisablePanelDeleyed>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CDisablePanelDeleyedU3Ed__10_System_Collections_IEnumerator_get_Current_m271F5CC65D4EAF362EEEB37323D10ABBE73D0554 (void);
+// 0x000000A9 System.Void ResizePanel::Awake()
+extern void ResizePanel_Awake_m02B9AC5CDBA67698A54F038360EBBE1A5358C034 (void);
+// 0x000000AA System.Void ResizePanel::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void ResizePanel_OnPointerDown_m37657BDB0494DD539375450934A44FDAAF3B9249 (void);
+// 0x000000AB System.Void ResizePanel::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern void ResizePanel_OnDrag_mE54AEB640A9F9432EB5E64251BC10D2C20667A9E (void);
+// 0x000000AC System.Void ResizePanel::.ctor()
+extern void ResizePanel__ctor_m12B4ECE6819037FC06C27BE7CBEF5B3112870FDB (void);
+// 0x000000AD System.Void ScrollDetailTexture::OnEnable()
+extern void ScrollDetailTexture_OnEnable_m8B3390F8C092EA8409C0FA2617A5B130D6943DE1 (void);
+// 0x000000AE System.Void ScrollDetailTexture::OnDisable()
+extern void ScrollDetailTexture_OnDisable_mC96EA86291FB8B4919FE11018EB8E7849311059F (void);
+// 0x000000AF System.Void ScrollDetailTexture::Update()
+extern void ScrollDetailTexture_Update_m8B1F71303E9E2692FFED74C314E3183C40BDC2FF (void);
+// 0x000000B0 System.Void ScrollDetailTexture::.ctor()
+extern void ScrollDetailTexture__ctor_m82FA53B10261E10F9FC5A42CEBB20E3B4EA79EBE (void);
+// 0x000000B1 System.Void ShowSliderValue::UpdateLabel(System.Single)
+extern void ShowSliderValue_UpdateLabel_m6BF2232BF66791803BDFF15885544AA28F9DE766 (void);
+// 0x000000B2 System.Void ShowSliderValue::.ctor()
+extern void ShowSliderValue__ctor_m92B3943A578957A0E0036A16DC9024C213FAF38D (void);
+// 0x000000B3 System.Void TiltWindow::Start()
+extern void TiltWindow_Start_mCDDE54F1278FA28BDEAB725B8283FF494D6D0ACC (void);
+// 0x000000B4 System.Void TiltWindow::Update()
+extern void TiltWindow_Update_mD571F534039FB9C6D19D024371F16CCDA3F2EAFA (void);
+// 0x000000B5 System.Void TiltWindow::.ctor()
+extern void TiltWindow__ctor_mEA9ECC1BB8D20A2225044D6F394A7AEBDFDBD47A (void);
+// 0x000000B6 System.Void Uv_Animaiton::Start()
+extern void Uv_Animaiton_Start_m54DEF364944156859BD2A9B9B0B56BFFF966BF6F (void);
+// 0x000000B7 System.Void Uv_Animaiton::FixedUpdate()
+extern void Uv_Animaiton_FixedUpdate_m60C7AA38DEEC836EE5E6E6BD239E5F14CECAD00D (void);
+// 0x000000B8 System.Void Uv_Animaiton::.ctor()
+extern void Uv_Animaiton__ctor_mD343D4D384C17018D60E9F8A3455B9B19D7C344C (void);
+// 0x000000B9 System.Void VRUIController::Init()
 extern void VRUIController_Init_m8BB89334EABE91D0CC69D9735B4E2C525BCE18B8 (void);
-// 0x00000081 System.Void VRUIController::Start()
+// 0x000000BA System.Void VRUIController::Start()
 extern void VRUIController_Start_m64C02C4FE8245AADF93BB6323C35DDE3C41F96D4 (void);
-// 0x00000082 System.Void VRUIController::Update()
+// 0x000000BB System.Void VRUIController::Update()
 extern void VRUIController_Update_m5F94D3B7AF10B04B9EE17F0C0A5BC659B97F3A7E (void);
-// 0x00000083 System.Void VRUIController::OnUIClick()
+// 0x000000BC System.Void VRUIController::OnUIClick()
 extern void VRUIController_OnUIClick_mBCFFDFE057BE70BB259A5CFD19C53160FAFE89E5 (void);
-// 0x00000084 System.Void VRUIController::OnUIPointerExit()
+// 0x000000BD System.Void VRUIController::OnUIPointerExit()
 extern void VRUIController_OnUIPointerExit_mD3F606837D3CA7ADEDF29E54F0E7EC841FD28BEB (void);
-// 0x00000085 System.Void VRUIController::OnUIPointerEnter()
+// 0x000000BE System.Void VRUIController::OnUIPointerEnter()
 extern void VRUIController_OnUIPointerEnter_m04E75D96CE7B7D209F15C444308075A4EB754D34 (void);
-// 0x00000086 System.Void VRUIController::.ctor()
+// 0x000000BF System.Void VRUIController::.ctor()
 extern void VRUIController__ctor_m91D26DF5D3AC9136F80E2167DAC9942992078400 (void);
-// 0x00000087 System.Void Visyde.V_SMC_Camera::Start()
+// 0x000000C0 System.Void Visyde.V_SMC_Camera::Start()
 extern void V_SMC_Camera_Start_m79758594B3439E9C6DF3E8137836431515FEB93F (void);
-// 0x00000088 System.Void Visyde.V_SMC_Camera::Update()
+// 0x000000C1 System.Void Visyde.V_SMC_Camera::Update()
 extern void V_SMC_Camera_Update_m795D3FC799C192D64C5B1FE278D3CD137508A62B (void);
-// 0x00000089 System.Void Visyde.V_SMC_Camera::Hit()
+// 0x000000C2 System.Void Visyde.V_SMC_Camera::Hit()
 extern void V_SMC_Camera_Hit_m046C4F1BAFA71D28EAD9D6B2628BF3A71522DC16 (void);
-// 0x0000008A System.Void Visyde.V_SMC_Camera::.ctor()
+// 0x000000C3 System.Void Visyde.V_SMC_Camera::.ctor()
 extern void V_SMC_Camera__ctor_m7C003B1898C123FCB4E00769242BD857085D9AF6 (void);
-// 0x0000008B System.Void Visyde.V_SMC_Handler::Update()
+// 0x000000C4 System.Void Visyde.V_SMC_Handler::Update()
 extern void V_SMC_Handler_Update_m54BEE13C6FC9EE9F64367A580964592000E65E3C (void);
-// 0x0000008C System.Void Visyde.V_SMC_Handler::ChangeColor(UnityEngine.Color)
+// 0x000000C5 System.Void Visyde.V_SMC_Handler::ChangeColor(UnityEngine.Color)
 extern void V_SMC_Handler_ChangeColor_m0393217BACE7ED383798D89B7666A31B4F9278E1 (void);
-// 0x0000008D System.Void Visyde.V_SMC_Handler::.ctor()
+// 0x000000C6 System.Void Visyde.V_SMC_Handler::.ctor()
 extern void V_SMC_Handler__ctor_mCAC81C8700046818251E913AE0EFD56ED4A9C242 (void);
-// 0x0000008E System.Void Visyde.V_Text::Start()
+// 0x000000C7 System.Void Visyde.V_Text::Start()
 extern void V_Text_Start_m22A94C4CD724DC3FF640302C876D23E7CD2081D1 (void);
-// 0x0000008F System.Void Visyde.V_Text::Update()
+// 0x000000C8 System.Void Visyde.V_Text::Update()
 extern void V_Text_Update_m945013CFC23D0928134B9CF0AFF4C0C943297D5D (void);
-// 0x00000090 System.Void Visyde.V_Text::.ctor()
+// 0x000000C9 System.Void Visyde.V_Text::.ctor()
 extern void V_Text__ctor_mBE73ED1B422F3D524C2470896D148FEADA012FB3 (void);
-static Il2CppMethodPointer s_methodPointers[144] = 
+static Il2CppMethodPointer s_methodPointers[201] = 
 {
 	CameraPointerExt_Awake_mD671263D79E63A9E1D106A665090EB8FEB48938C,
 	CameraPointerExt_Update_m5CDA4B1225E4553F6EF60EFF8317014B1039F1E0,
@@ -429,6 +542,63 @@ static Il2CppMethodPointer s_methodPointers[144] =
 	TelePort_setPos_m1100F21E3B85579B39EA436B2E4BF8DF7DE9E808,
 	TelePort_BackPos_m482D6F87258433D2D4CD66739AB8C3F4C07B7D08,
 	TelePort__ctor_m08FEC869F5B75EC93373AD101E9755541C33271D,
+	ActiveStateToggler_ToggleActive_mE5AFDC4E770D3AB465A4EFEC92CA40F962BCE9FA,
+	ActiveStateToggler__ctor_m8085169E76AB400B373EFC0E5E4028E189A25028,
+	ApplicationManager_Quit_m403368607C71AACA27341CA2B11F90B15D9C2275,
+	ApplicationManager__ctor_m4D923E22E12C36CD444B73E88487BB4E77A83E62,
+	ChangeColor_OnEnable_m7FE31A95B4478A63871D6365942BC37DE75B985D,
+	ChangeColor_SetRed_mB0090838752887384E425FEAA937ABBEE13E4EB8,
+	ChangeColor_SetGreen_m05B35D3F91BCA56B345321414A034A7D92D0E45B,
+	ChangeColor_SetBlue_m57D6E496618765E4DDE654275D7589AB1C409630,
+	ChangeColor_OnValueChanged_mFA920A494A5F9749FCDBD6BFB7EC8E3D9B6172DB,
+	ChangeColor_OnPointerClick_m7AB5B0F618C688037FB77A27B05BBCB8AA957A1F,
+	ChangeColor__ctor_m41B10590AF4632D7F8E7ABDD4130C5B1067561A6,
+	DragMe_OnBeginDrag_mFC5EDC3D150A4B114381C991228B71BFCC9760C9,
+	DragMe_OnDrag_m7988B9DAA4376D14957C051110A049215892025D,
+	DragMe_SetDraggedPosition_m7C8DB86B92268E42387E0E6479521095429EABDE,
+	DragMe_OnEndDrag_m24576A6489ED4643BE5BAB5FE4246EF5857AFC3E,
+	NULL,
+	DragMe__ctor_mB0FCFD436CFBA38B6A39024D5BB21AE21D0CF978,
+	DragPanel_Awake_m7730D945BF0A144028A6F53F10306D326CEE9980,
+	DragPanel_OnPointerDown_mFDF80CB62D238558FC69270E3F05C9BADE87DAF3,
+	DragPanel_OnDrag_m11327A95544774C1FA3EFC7E5B9B2D685C6DA6A7,
+	DragPanel_ClampToWindow_m4F9FC1B0D2B94CA8060853823AAEE496AAE38AE7,
+	DragPanel__ctor_mBDA15B1E481A3D5538BD1B319AE4B3B4ABF64F7F,
+	DropMe_OnEnable_mE82969854A6362AF87DE93F1A9CBFE6B83F504E5,
+	DropMe_OnDrop_m3AE8F24C2C9D91DFF973EEF324CC9CB5FAD9401D,
+	DropMe_OnPointerEnter_m2F6C117AF60413EBC4FB03EEB4D09EB40B3317B4,
+	DropMe_OnPointerExit_m31E7FEB688CA54F16B81A3CA8A4B21D676EDB651,
+	DropMe_GetDropSprite_m2C3723D7AB5974D991F47C67F8BFB465D85DE166,
+	DropMe__ctor_mA62B4643146CD6841C0D898D5686FEF75A7E5DF9,
+	PanelManager_OnEnable_m09547ED27D87F696B41F1FAF5EFC3826F3204E2D,
+	PanelManager_OpenPanel_m55C75D9E37F2CDE8B1670FBF979329E5D6D13E0F,
+	PanelManager_FindFirstEnabledSelectable_m59C12281C9EAED20F4FBB9C820D4EAD2C2DA117B,
+	PanelManager_CloseCurrent_m20DE00E5BAE15FA1D4A052E555A3CC5C58A6A695,
+	PanelManager_DisablePanelDeleyed_mB120A21FD25F2168724F35B9FAD134487EF0507A,
+	PanelManager_SetSelected_m33A82F0C75C5439BE6C1FEE4B93BF4E3949FE882,
+	PanelManager__ctor_m945C0470B90313D67EDCED0D97AFADB78A190AFD,
+	U3CDisablePanelDeleyedU3Ed__10__ctor_m3595FCFEB5B1694DEAE36303E82C43199E309861,
+	U3CDisablePanelDeleyedU3Ed__10_System_IDisposable_Dispose_m37D3EA493F4986A2E0A6263B72E96EF00126946B,
+	U3CDisablePanelDeleyedU3Ed__10_MoveNext_m7BFBF535CE4EBEABFFB4B592D5BA81B83152B2AD,
+	U3CDisablePanelDeleyedU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m82D3317E9507246F91AABBA087291CE3DFAD9B4C,
+	U3CDisablePanelDeleyedU3Ed__10_System_Collections_IEnumerator_Reset_mCCE2A629729D15A72499C8B3EBE2380829AA7291,
+	U3CDisablePanelDeleyedU3Ed__10_System_Collections_IEnumerator_get_Current_m271F5CC65D4EAF362EEEB37323D10ABBE73D0554,
+	ResizePanel_Awake_m02B9AC5CDBA67698A54F038360EBBE1A5358C034,
+	ResizePanel_OnPointerDown_m37657BDB0494DD539375450934A44FDAAF3B9249,
+	ResizePanel_OnDrag_mE54AEB640A9F9432EB5E64251BC10D2C20667A9E,
+	ResizePanel__ctor_m12B4ECE6819037FC06C27BE7CBEF5B3112870FDB,
+	ScrollDetailTexture_OnEnable_m8B3390F8C092EA8409C0FA2617A5B130D6943DE1,
+	ScrollDetailTexture_OnDisable_mC96EA86291FB8B4919FE11018EB8E7849311059F,
+	ScrollDetailTexture_Update_m8B1F71303E9E2692FFED74C314E3183C40BDC2FF,
+	ScrollDetailTexture__ctor_m82FA53B10261E10F9FC5A42CEBB20E3B4EA79EBE,
+	ShowSliderValue_UpdateLabel_m6BF2232BF66791803BDFF15885544AA28F9DE766,
+	ShowSliderValue__ctor_m92B3943A578957A0E0036A16DC9024C213FAF38D,
+	TiltWindow_Start_mCDDE54F1278FA28BDEAB725B8283FF494D6D0ACC,
+	TiltWindow_Update_mD571F534039FB9C6D19D024371F16CCDA3F2EAFA,
+	TiltWindow__ctor_mEA9ECC1BB8D20A2225044D6F394A7AEBDFDBD47A,
+	Uv_Animaiton_Start_m54DEF364944156859BD2A9B9B0B56BFFF966BF6F,
+	Uv_Animaiton_FixedUpdate_m60C7AA38DEEC836EE5E6E6BD239E5F14CECAD00D,
+	Uv_Animaiton__ctor_mD343D4D384C17018D60E9F8A3455B9B19D7C344C,
 	VRUIController_Init_m8BB89334EABE91D0CC69D9735B4E2C525BCE18B8,
 	VRUIController_Start_m64C02C4FE8245AADF93BB6323C35DDE3C41F96D4,
 	VRUIController_Update_m5F94D3B7AF10B04B9EE17F0C0A5BC659B97F3A7E,
@@ -447,169 +617,235 @@ static Il2CppMethodPointer s_methodPointers[144] =
 	V_Text_Update_m945013CFC23D0928134B9CF0AFF4C0C943297D5D,
 	V_Text__ctor_mBE73ED1B422F3D524C2470896D148FEADA012FB3,
 };
-static const int32_t s_InvokerIndices[144] = 
+static const int32_t s_InvokerIndices[201] = 
 {
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1162,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1011,
-	1164,
-	1152,
-	1152,
-	1164,
-	1164,
-	1164,
-	1164,
-	1132,
-	1164,
-	1164,
-	984,
-	1164,
-	1152,
-	1132,
-	1164,
-	1132,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	984,
-	994,
-	1154,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	984,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	994,
-	984,
-	1120,
-	1164,
-	984,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	984,
-	984,
-	994,
-	1164,
-	994,
-	994,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1162,
-	1164,
-	1164,
-	1164,
-	1162,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	1164,
-	965,
-	1164,
-	1164,
-	1164,
-	1164,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1166,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1015,
+	1168,
+	1156,
+	1156,
+	1168,
+	1168,
+	1168,
+	1168,
+	1136,
+	1168,
+	1168,
+	988,
+	1168,
+	1156,
+	1136,
+	1168,
+	1136,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	988,
+	998,
+	1158,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	988,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	998,
+	988,
+	1124,
+	1168,
+	988,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	988,
+	988,
+	998,
+	1168,
+	998,
+	998,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1166,
+	1168,
+	1168,
+	1168,
+	1166,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1017,
+	1017,
+	1017,
+	660,
+	998,
+	1168,
+	998,
+	998,
+	998,
+	998,
+	-1,
+	1168,
+	1168,
+	998,
+	998,
+	1168,
+	1168,
+	1168,
+	998,
+	998,
+	998,
+	795,
+	1168,
+	1168,
+	998,
+	1911,
+	1168,
+	795,
+	998,
+	1168,
+	988,
+	1168,
+	1156,
+	1136,
+	1168,
+	1136,
+	1168,
+	998,
+	998,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1017,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	1168,
+	969,
+	1168,
+	1168,
+	1168,
+	1168,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x0600008F, { 0, 2 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[2] = 
+{
+	{ (Il2CppRGCTXDataType)3, 5993 },
+	{ (Il2CppRGCTXDataType)2, 86 },
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	144,
+	201,
 	s_methodPointers,
 	0,
 	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
+	1,
+	s_rgctxIndices,
+	2,
+	s_rgctxValues,
 	NULL,
 	g_AssemblyU2DCSharp_AttributeGenerators,
 	NULL, // module initializer,

@@ -10,6 +10,7 @@ public class CameraPointerExt : MonoBehaviour
     int layerMask;
 
 
+
     /// <summary>
     /// Update is called once per frame.
 
@@ -38,16 +39,18 @@ public void Awake()
                 _gazedAtObject = hit.transform.gameObject;
                 Debug.Log(_gazedAtObject.name);
                 _gazedAtObject.SendMessage("OnUIPointerEnter");
+     
             }
-            }
+        }
             else
             {
             // No GameObject detected in front of the camera.
 
            
                 _gazedAtObject?.SendMessage("OnUIPointerExit");
+     
 
-                _gazedAtObject = null;
+            _gazedAtObject = null;
             }
 
             // Checks for screen touches.

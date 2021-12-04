@@ -13,7 +13,9 @@ public class WBCControl : MonoBehaviour
     GameObject Player;
     [SerializeField]
     GameObject Renderer;
-   public Animator m_animator;
+    [SerializeField]
+    GameObject Guage;
+    public Animator m_animator;
 
     [SerializeField]
     float moveSpeed;
@@ -28,6 +30,7 @@ public class WBCControl : MonoBehaviour
     bool HitDead = false;
     private void Start()
     {
+        Guage = GameObject.FindGameObjectWithTag("Guage");
         Player = GameObject.FindGameObjectWithTag("Player");
         m_animator = this.gameObject.GetComponent<Animator>();
         transform.LookAt(Player.transform);
@@ -95,6 +98,7 @@ public class WBCControl : MonoBehaviour
             Debug.Log("OnPointerEnter");
             Renderer.GetComponent<SkinnedMeshRenderer>().material.color = new Color(0.42f, 1.0f, 0.0f);
             ishitPlayer = true;
+            Guage.transform.localScale = new Vector3(1.8f, 1.8f, 1.8f);
         }
         
     }
@@ -107,7 +111,7 @@ public class WBCControl : MonoBehaviour
         Renderer.GetComponent<SkinnedMeshRenderer>().material.color = Color.white;
 
         ishitPlayer = false;
-
+        Guage.transform.localScale = new Vector3(1.3f, 1.3f, 1.3f);
     }
 
     void Cell_hit()

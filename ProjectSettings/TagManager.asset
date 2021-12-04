@@ -13,6 +13,7 @@ TagManager:
   - Platform
   - TP
   - Lava
+  - Guage
   layers:
   - Default
   - TransparentFX

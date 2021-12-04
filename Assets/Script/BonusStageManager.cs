@@ -19,11 +19,11 @@ public class BonusStageManager : MonoBehaviour
     GameObject Player;
     [SerializeField]
     GameObject StartUI;
-    [SerializeField]
-    GameObject TimerUI;
+
     [SerializeField]
     GameObject m_Camera;
-
+    [SerializeField]
+    GameObject TimeBar;
     public  Text text_Timer;
     private float time_current;
     [SerializeField]
@@ -35,7 +35,7 @@ public class BonusStageManager : MonoBehaviour
     public bool GameStart;
 
     int cellnum;
-    float[] random = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
 
 
  public   GameObject StageChangeUI;
@@ -51,6 +51,7 @@ public class BonusStageManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        TimeBar.GetComponent<Image>().fillAmount = time_current / 60f;
         if (GameStart)
         {
             
@@ -130,6 +131,8 @@ public class BonusStageManager : MonoBehaviour
                 GameManager.instasnce.curStage = GameManager.StageNum.Stomach;
                 break;
             case GameManager.StageNum.Stomach:
+                this.gameObject.GetComponent<StomachStageManager>().StageOff();
+                GameManager.instasnce.curStage = GameManager.StageNum.Intestine;
                 break;
             case GameManager.StageNum.Intestine:
                 break;
@@ -181,9 +184,9 @@ public class BonusStageManager : MonoBehaviour
     }
 
 
-    private void Reset_Timer()
+    public void Reset_Timer()
     {
-        TimerUI.SetActive(true);
+      
         time_current = time_Max;
         text_Timer.text = $"{time_current:N1}";
         isEnded = false;
@@ -196,7 +199,7 @@ public class BonusStageManager : MonoBehaviour
         Debug.Log("½ÇÇàµÊ");
         StageChangeUI.SetActive(true);
         GameManager.instasnce.UIControllOn();
-        TimerUI.SetActive(false);
+
     }
     public  void StageChange()
     {

@@ -17,9 +17,11 @@ public class CellControll : MonoBehaviour
 
     [SerializeField]
     GameObject HpBar;
-
+    [SerializeField]
+    GameObject Guage;
     private void Start()
     {
+        Guage = GameObject.FindGameObjectWithTag("Guage");
         Player = GameObject.FindGameObjectWithTag("Player");
         m_animator = this.gameObject.GetComponent<Animator>();
         transform.LookAt(Player.transform);
@@ -47,6 +49,7 @@ public class CellControll : MonoBehaviour
         Debug.Log("OnPointerEnter");
         Renderer.GetComponent<SkinnedMeshRenderer>().material.color = new Color(0.42f, 1.0f, 0.0f);
         ishitPlayer = true;
+        Guage.transform.localScale = new Vector3(1.8f, 1.8f, 1.8f);
     }
     public void OnPointerExit()
     {
@@ -56,7 +59,7 @@ public class CellControll : MonoBehaviour
         Renderer.GetComponent<SkinnedMeshRenderer>().material.color = Color.white;
 
         ishitPlayer = false;
-
+        Guage.transform.localScale = new Vector3(1.3f, 1.3f, 1.3f);
     }
 
     void Cell_hit()
