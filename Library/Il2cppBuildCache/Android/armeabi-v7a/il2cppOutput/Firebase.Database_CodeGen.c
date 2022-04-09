@@ -1,0 +1,987 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+extern const RuntimeMethod* Future_InternalDataSnapshot_SWIG_CompletionDispatcher_m7905C61D5D9AE818AA4AC3F0F838FA01B5E4D852_RuntimeMethod_var;
+extern const RuntimeMethod* InternalChildListener_OnCancelledHandler_m6027BABC8ED7A3782F0660E4D4BC1ACDBBFC19FF_RuntimeMethod_var;
+extern const RuntimeMethod* InternalChildListener_OnChildChangeHandler_m111693C2C3696B07FE2D29391D27DEF39BCF5BB5_RuntimeMethod_var;
+extern const RuntimeMethod* InternalChildListener_OnChildRemovedHandler_mC4C07D126798B369EF865A3E0E6CCE30900C032F_RuntimeMethod_var;
+extern const RuntimeMethod* InternalValueListener_OnCancelledHandler_mB24789B71507858E38EB48965B0D9FBD031959F7_RuntimeMethod_var;
+extern const RuntimeMethod* InternalValueListener_OnValueChangedHandler_mA40B20FA26915907919D53C45D5BF5395ACE2BDA_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingApplicationException_m0F996413862002E3DD7FDD548EA24FBA1FF5AB09_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentException_m814FE6192698629E0DFBB16FEA3E3173833B47B3_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentNullException_mEDFDDC2387E881554214C5B8DE33BF35215B7042_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mA88C63402F8142B4B866BC0DD46EE47853411DC2_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArithmeticException_mFF75740AD491554899C097E0DADC53F7BD9B648B_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingDivideByZeroException_mECC442D4BA10495F1BD419C6AD29532037348E84_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIOException_m37109E9C6FE3E8E0A6670C71B07FD3AA6BB87294_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m0A7C01CC0882A4E72DF371C5072D20C368744F41_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidCastException_m3173701684EF764B16D4DAE820BD88C8A5311AC8_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidOperationException_m3C325A55848E3FC203DA02C6B477FD51C8467CEB_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingNullReferenceException_m2B27B45C6AF0D649049D2B61E4489E3A44CAA0A5_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOutOfMemoryException_m1F571A4058F2A2AC6170CBBA6A3332460BE78EFE_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOverflowException_mD37F18C4EE97E0C708E7C336F8391E8F4C87B9CD_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingSystemException_mA373DD8147413E53F25953713F3785AFCA8D4CE3_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGStringHelper_CreateString_m1B4CB3A2C3DCEF73AF006FF16442D1EEFDDB6384_RuntimeMethod_var;
+
+
+
+// 0x00000001 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::.cctor()
+extern void DatabaseInternalPINVOKE__cctor_m2D506701ECDCB47E1E7F7ACC17151E89BBDF8C0E (void);
+// 0x00000002 System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::Future_InternalDataSnapshot_SWIG_OnCompletion(System.Runtime.InteropServices.HandleRef,Firebase.Database.Internal.Future_InternalDataSnapshot/SWIG_CompletionDelegate,System.Int32)
+extern void DatabaseInternalPINVOKE_Future_InternalDataSnapshot_SWIG_OnCompletion_mA0DED14E3561D819D7E0397E3913E7314B87541C (void);
+// 0x00000003 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::Future_InternalDataSnapshot_SWIG_FreeCompletionData(System.Runtime.InteropServices.HandleRef,System.IntPtr)
+extern void DatabaseInternalPINVOKE_Future_InternalDataSnapshot_SWIG_FreeCompletionData_m4D81AB15E952BF6AE792FD5F60AA0FA9235D2FA1 (void);
+// 0x00000004 System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::Future_InternalDataSnapshot_GetResult(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_Future_InternalDataSnapshot_GetResult_m2073A527E21D604DFCAF41639DEA72E51E66C02D (void);
+// 0x00000005 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::delete_Future_InternalDataSnapshot(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_delete_Future_InternalDataSnapshot_m2FA6462AA0D2A83585E7B48C6E5F1C983247C72C (void);
+// 0x00000006 System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalFirebaseDatabase_GetReference__SWIG_1(System.Runtime.InteropServices.HandleRef,System.String)
+extern void DatabaseInternalPINVOKE_InternalFirebaseDatabase_GetReference__SWIG_1_m060B421C5CBC1D52E694230311305CFD754BA940 (void);
+// 0x00000007 System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalFirebaseDatabase_GetInstanceInternal(System.Runtime.InteropServices.HandleRef,System.String,System.Int32&)
+extern void DatabaseInternalPINVOKE_InternalFirebaseDatabase_GetInstanceInternal_m43AACA690F46EBE31EABD5915E3AE4354BB6B43C (void);
+// 0x00000008 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalFirebaseDatabase_ReleaseReferenceInternal(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_InternalFirebaseDatabase_ReleaseReferenceInternal_m388E5FAEED5165B0436798890542316F5CCE3257 (void);
+// 0x00000009 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::delete_InternalDataSnapshot(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_delete_InternalDataSnapshot_mDDFCA22392FFAF54567FD82BF2B9D7A796DE4E9F (void);
+// 0x0000000A System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalDataSnapshot_Child__SWIG_0(System.Runtime.InteropServices.HandleRef,System.String)
+extern void DatabaseInternalPINVOKE_InternalDataSnapshot_Child__SWIG_0_mFCEE4A105D23E018339A4505D2D160C949711A1C (void);
+// 0x0000000B System.UInt32 Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalDataSnapshot_children_count(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_InternalDataSnapshot_children_count_m5DFF5116665D85DB13123F18B676276B014671E8 (void);
+// 0x0000000C System.String Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalDataSnapshot_key_string(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_InternalDataSnapshot_key_string_mA25B4DF17C3D845478EA6F6F21BAFF9EE2F9E8BC (void);
+// 0x0000000D System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalDataSnapshot_value(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_InternalDataSnapshot_value_mDF6D5972AAF7D91909084E981714D382839F3333 (void);
+// 0x0000000E System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::delete_InternalQuery(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_delete_InternalQuery_m023CE0E50B978E5D46AE8A1F7161CF290267CCC2 (void);
+// 0x0000000F System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalQuery_GetValue(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_InternalQuery_GetValue_mE2CF042B1C933B78675ECA6D1420C5D436116816 (void);
+// 0x00000010 System.Boolean Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalQuery_is_valid(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_InternalQuery_is_valid_mC0E9BA5D04DEA2D356FC8CAAA958352398DA417C (void);
+// 0x00000011 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalQuery_DestroyValueListener(System.IntPtr)
+extern void DatabaseInternalPINVOKE_InternalQuery_DestroyValueListener_m407802DFD831DB804F56D809021041FAB354D691 (void);
+// 0x00000012 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalQuery_RegisterValueListenerCallbacks(Firebase.Database.Internal.InternalChildListener/OnCancelledDelegate,Firebase.Database.Internal.InternalValueListener/OnValueChangedDelegate)
+extern void DatabaseInternalPINVOKE_InternalQuery_RegisterValueListenerCallbacks_mDEA0C334FF8CA643D88CDAEA4EEA95CED795D422 (void);
+// 0x00000013 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalQuery_DestroyChildListener(System.IntPtr)
+extern void DatabaseInternalPINVOKE_InternalQuery_DestroyChildListener_mDE35BC02799F9DBFF67D6082600B339A5815D301 (void);
+// 0x00000014 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalQuery_RegisterChildListenerCallbacks(Firebase.Database.Internal.InternalChildListener/OnCancelledDelegate,Firebase.Database.Internal.InternalChildListener/OnChildChangeDelegate,Firebase.Database.Internal.InternalChildListener/OnChildRemovedDelegate)
+extern void DatabaseInternalPINVOKE_InternalQuery_RegisterChildListenerCallbacks_m95618B358A1C0409EE1DC966680D1B7698034E35 (void);
+// 0x00000015 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE::delete_InternalDatabaseReference(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_delete_InternalDatabaseReference_m32BE1C44D7CE3CB520C4A67E9CD1B9711F96F3E4 (void);
+// 0x00000016 System.Boolean Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalDatabaseReference_is_valid(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_InternalDatabaseReference_is_valid_m0234402DE1593B492FF750B739F65419FE1105C2 (void);
+// 0x00000017 System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalDatabaseReference_Child__SWIG_0(System.Runtime.InteropServices.HandleRef,System.String)
+extern void DatabaseInternalPINVOKE_InternalDatabaseReference_Child__SWIG_0_mF5C03E9E5DDE9F7411170C6459D6793A19D56BEF (void);
+// 0x00000018 System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalDatabaseReference_SetValue(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_InternalDatabaseReference_SetValue_mBA4E1E8C58EA9E8A104BE85362A8E7D44801434B (void);
+// 0x00000019 System.String Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalDatabaseReference_url(System.Runtime.InteropServices.HandleRef)
+extern void DatabaseInternalPINVOKE_InternalDatabaseReference_url_m0A94EF6FC89BF0DA6B2D8618BA031FE357FDD4C7 (void);
+// 0x0000001A System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::Future_InternalDataSnapshot_SWIGUpcast(System.IntPtr)
+extern void DatabaseInternalPINVOKE_Future_InternalDataSnapshot_SWIGUpcast_m2BB095E0CE65BE23C68F3DE7E2820BFC6F148D79 (void);
+// 0x0000001B System.IntPtr Firebase.Database.Internal.DatabaseInternalPINVOKE::InternalDatabaseReference_SWIGUpcast(System.IntPtr)
+extern void DatabaseInternalPINVOKE_InternalDatabaseReference_SWIGUpcast_m0E233D4C84E4A1BE24A0468F1BFF9D27817C5F1D (void);
+// 0x0000001C System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::.cctor()
+extern void SWIGExceptionHelper__cctor_m5DAD7A2AFC923954B0010750C19AD9299543845C (void);
+// 0x0000001D System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::.ctor()
+extern void SWIGExceptionHelper__ctor_m0ADB82550973C1BB4A57B3132C00D087565746C3 (void);
+// 0x0000001E System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SWIGRegisterExceptionCallbacks_DatabaseInternal(Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_DatabaseInternal_mDD5933C26B5EE8A65766383EEA892836BCE887E4 (void);
+// 0x0000001F System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SWIGRegisterExceptionCallbacksArgument_DatabaseInternal(Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate,Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_DatabaseInternal_m9B3FBB6656A7EF3E9ED980A8955232D994B26696 (void);
+// 0x00000020 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingApplicationException(System.String)
+extern void SWIGExceptionHelper_SetPendingApplicationException_m0F996413862002E3DD7FDD548EA24FBA1FF5AB09 (void);
+// 0x00000021 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingArithmeticException(System.String)
+extern void SWIGExceptionHelper_SetPendingArithmeticException_mFF75740AD491554899C097E0DADC53F7BD9B648B (void);
+// 0x00000022 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingDivideByZeroException(System.String)
+extern void SWIGExceptionHelper_SetPendingDivideByZeroException_mECC442D4BA10495F1BD419C6AD29532037348E84 (void);
+// 0x00000023 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingIndexOutOfRangeException(System.String)
+extern void SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m0A7C01CC0882A4E72DF371C5072D20C368744F41 (void);
+// 0x00000024 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingInvalidCastException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidCastException_m3173701684EF764B16D4DAE820BD88C8A5311AC8 (void);
+// 0x00000025 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingInvalidOperationException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidOperationException_m3C325A55848E3FC203DA02C6B477FD51C8467CEB (void);
+// 0x00000026 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingIOException(System.String)
+extern void SWIGExceptionHelper_SetPendingIOException_m37109E9C6FE3E8E0A6670C71B07FD3AA6BB87294 (void);
+// 0x00000027 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingNullReferenceException(System.String)
+extern void SWIGExceptionHelper_SetPendingNullReferenceException_m2B27B45C6AF0D649049D2B61E4489E3A44CAA0A5 (void);
+// 0x00000028 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingOutOfMemoryException(System.String)
+extern void SWIGExceptionHelper_SetPendingOutOfMemoryException_m1F571A4058F2A2AC6170CBBA6A3332460BE78EFE (void);
+// 0x00000029 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingOverflowException(System.String)
+extern void SWIGExceptionHelper_SetPendingOverflowException_mD37F18C4EE97E0C708E7C336F8391E8F4C87B9CD (void);
+// 0x0000002A System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingSystemException(System.String)
+extern void SWIGExceptionHelper_SetPendingSystemException_mA373DD8147413E53F25953713F3785AFCA8D4CE3 (void);
+// 0x0000002B System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingArgumentException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentException_m814FE6192698629E0DFBB16FEA3E3173833B47B3 (void);
+// 0x0000002C System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingArgumentNullException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentNullException_mEDFDDC2387E881554214C5B8DE33BF35215B7042 (void);
+// 0x0000002D System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper::SetPendingArgumentOutOfRangeException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mA88C63402F8142B4B866BC0DD46EE47853411DC2 (void);
+// 0x0000002E System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionDelegate__ctor_m284E32D68B64BA26EA082FDEA3719C06EDEB5953 (void);
+// 0x0000002F System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate::Invoke(System.String)
+extern void ExceptionDelegate_Invoke_mE6FA5905EB58B7E24B27878A286398BB1AD60D37 (void);
+// 0x00000030 System.IAsyncResult Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void ExceptionDelegate_BeginInvoke_m4BE4AFB0EE65C4EE3AD33A4446F1E2528F1BCDB4 (void);
+// 0x00000031 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionDelegate::EndInvoke(System.IAsyncResult)
+extern void ExceptionDelegate_EndInvoke_m09C7BE40F9B61F679D83C70721B5C71FBF763483 (void);
+// 0x00000032 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionArgumentDelegate__ctor_m2218A5FD8E97C779CB0C978A08CBD7C38679900F (void);
+// 0x00000033 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::Invoke(System.String,System.String)
+extern void ExceptionArgumentDelegate_Invoke_mEBDC0CA8F10C79F697B4597CEEFC327EB35DB726 (void);
+// 0x00000034 System.IAsyncResult Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
+extern void ExceptionArgumentDelegate_BeginInvoke_m1F64DEDB3EC6328A5BA96EDEF8D80486C5F8451B (void);
+// 0x00000035 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::EndInvoke(System.IAsyncResult)
+extern void ExceptionArgumentDelegate_EndInvoke_m656951391F1A7B635CD4CAC46CDA0CB5D016CB1B (void);
+// 0x00000036 System.Boolean Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGPendingException::get_Pending()
+extern void SWIGPendingException_get_Pending_m3155096CD216BD668643EDC7D9F76612A32DA86A (void);
+// 0x00000037 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGPendingException::Set(System.Exception)
+extern void SWIGPendingException_Set_mEB47FC268D105585A346BF7AD739894E30461177 (void);
+// 0x00000038 System.Exception Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGPendingException::Retrieve()
+extern void SWIGPendingException_Retrieve_m12D105915687E89EBB9CE8446A66F671294A828E (void);
+// 0x00000039 System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGStringHelper::.cctor()
+extern void SWIGStringHelper__cctor_m5C1032DAB951169BA2A4C1B2729ACBA3D540F066 (void);
+// 0x0000003A System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGStringHelper::.ctor()
+extern void SWIGStringHelper__ctor_m5FCC61DE0A2198978283B58325176E9BE096021B (void);
+// 0x0000003B System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGStringHelper::SWIGRegisterStringCallback_DatabaseInternal(Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate)
+extern void SWIGStringHelper_SWIGRegisterStringCallback_DatabaseInternal_m7D80EA63ED56EBDB86B4DD48B717AFC0C1D45038 (void);
+// 0x0000003C System.String Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGStringHelper::CreateString(System.String)
+extern void SWIGStringHelper_CreateString_m1B4CB3A2C3DCEF73AF006FF16442D1EEFDDB6384 (void);
+// 0x0000003D System.Void Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate::.ctor(System.Object,System.IntPtr)
+extern void SWIGStringDelegate__ctor_m04F81FC6C90DC3A07C7BC11BC63C5D8D859FE6FE (void);
+// 0x0000003E System.String Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate::Invoke(System.String)
+extern void SWIGStringDelegate_Invoke_m632E7B90E5EE36D5B0BBE6EC8C9C68B6F3DC04E6 (void);
+// 0x0000003F System.IAsyncResult Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void SWIGStringDelegate_BeginInvoke_mEAA10B2BA061D5AC655F5DAA8604E80697F37550 (void);
+// 0x00000040 System.String Firebase.Database.Internal.DatabaseInternalPINVOKE/SWIGStringHelper/SWIGStringDelegate::EndInvoke(System.IAsyncResult)
+extern void SWIGStringDelegate_EndInvoke_m40BCFFDDEF5EA045528011532052C87905EA97E7 (void);
+// 0x00000041 System.Void Firebase.Database.Internal.InternalDatabaseReference::.ctor(System.IntPtr,System.Boolean)
+extern void InternalDatabaseReference__ctor_mAD8499D9D769CCD45207112000EE7AF91CFD202D (void);
+// 0x00000042 System.Void Firebase.Database.Internal.InternalDatabaseReference::Finalize()
+extern void InternalDatabaseReference_Finalize_mDA077A20E69EA6B292EB99868A8FB35F1674445E (void);
+// 0x00000043 System.Void Firebase.Database.Internal.InternalDatabaseReference::Dispose()
+extern void InternalDatabaseReference_Dispose_m7A34A1859B39A814ACF30F7E64842454E0B3C768 (void);
+// 0x00000044 System.Boolean Firebase.Database.Internal.InternalDatabaseReference::is_valid()
+extern void InternalDatabaseReference_is_valid_mB4B11E42888407DCEAF91D4039CFDEDDD0BFFA0C (void);
+// 0x00000045 Firebase.Database.Internal.InternalDatabaseReference Firebase.Database.Internal.InternalDatabaseReference::Child(System.String)
+extern void InternalDatabaseReference_Child_mD9B60C8BAA5925CBC5A4DFC730AEBB594DA14168 (void);
+// 0x00000046 System.Threading.Tasks.Task Firebase.Database.Internal.InternalDatabaseReference::SetValueAsync(Firebase.Variant)
+extern void InternalDatabaseReference_SetValueAsync_m1BB0CDA53E8537C5F419001A6339E7280BFAD0E9 (void);
+// 0x00000047 System.String Firebase.Database.Internal.InternalDatabaseReference::url()
+extern void InternalDatabaseReference_url_m75413615D60C2ED0D1EED5593DA41A98C7C02E46 (void);
+// 0x00000048 System.Void Firebase.Database.Internal.InternalQuery::.ctor(System.IntPtr,System.Boolean)
+extern void InternalQuery__ctor_m736CC3B9078648C1EF156BFA18FBA806C721D5F4 (void);
+// 0x00000049 System.Void Firebase.Database.Internal.InternalQuery::Finalize()
+extern void InternalQuery_Finalize_mB8C23C8750171A9332CE19F1673D6B840030144A (void);
+// 0x0000004A System.Void Firebase.Database.Internal.InternalQuery::Dispose()
+extern void InternalQuery_Dispose_m513030CE720E2CB96D768F3DE923DAB3BC557A46 (void);
+// 0x0000004B System.Threading.Tasks.Task`1<Firebase.Database.Internal.InternalDataSnapshot> Firebase.Database.Internal.InternalQuery::GetValueAsync()
+extern void InternalQuery_GetValueAsync_m611875BC39C804373A70F5E501C80A5C7394DD48 (void);
+// 0x0000004C System.Boolean Firebase.Database.Internal.InternalQuery::is_valid()
+extern void InternalQuery_is_valid_m77F5C421E26AA0EB8CC6EB64293A7DFA0EF168DA (void);
+// 0x0000004D System.Void Firebase.Database.Internal.InternalQuery::DestroyValueListener(System.IntPtr)
+extern void InternalQuery_DestroyValueListener_m274A8010A85AD724836E9F5FE18AB1B8BDCF95C0 (void);
+// 0x0000004E System.Void Firebase.Database.Internal.InternalQuery::RegisterValueListenerCallbacks(Firebase.Database.Internal.InternalChildListener/OnCancelledDelegate,Firebase.Database.Internal.InternalValueListener/OnValueChangedDelegate)
+extern void InternalQuery_RegisterValueListenerCallbacks_mB06CDAA0D4A24EA071875E618C12ABAA1B21201B (void);
+// 0x0000004F System.Void Firebase.Database.Internal.InternalQuery::DestroyChildListener(System.IntPtr)
+extern void InternalQuery_DestroyChildListener_m574B9F1F70D80C9104E164EE160233BBA6F3F958 (void);
+// 0x00000050 System.Void Firebase.Database.Internal.InternalQuery::RegisterChildListenerCallbacks(Firebase.Database.Internal.InternalChildListener/OnCancelledDelegate,Firebase.Database.Internal.InternalChildListener/OnChildChangeDelegate,Firebase.Database.Internal.InternalChildListener/OnChildRemovedDelegate)
+extern void InternalQuery_RegisterChildListenerCallbacks_m342FC1A852F73C6495982A6E25105C7D476179C2 (void);
+// 0x00000051 System.Void Firebase.Database.Internal.InternalDataSnapshot::.ctor(System.IntPtr,System.Boolean)
+extern void InternalDataSnapshot__ctor_mC8A7803BFA8D85177E7EFD11ABA7652B82842DAF (void);
+// 0x00000052 System.Void Firebase.Database.Internal.InternalDataSnapshot::Finalize()
+extern void InternalDataSnapshot_Finalize_m585B370EDA47B63D114FC49260601FB46AF04511 (void);
+// 0x00000053 System.Void Firebase.Database.Internal.InternalDataSnapshot::Dispose()
+extern void InternalDataSnapshot_Dispose_mD0DA4256BC7602E86C23AA5E36D07EA4458FED13 (void);
+// 0x00000054 Firebase.Database.Internal.InternalDataSnapshot Firebase.Database.Internal.InternalDataSnapshot::Child(System.String)
+extern void InternalDataSnapshot_Child_m0C3CD54CDE33C62A364C33257CCBCDD1B4C124EE (void);
+// 0x00000055 System.UInt32 Firebase.Database.Internal.InternalDataSnapshot::children_count()
+extern void InternalDataSnapshot_children_count_m47221060F5732445F59EE64CBDAC6BB3DF869410 (void);
+// 0x00000056 System.String Firebase.Database.Internal.InternalDataSnapshot::key_string()
+extern void InternalDataSnapshot_key_string_mA08D3ACDC44D92546C101D520B4204945D3C218E (void);
+// 0x00000057 Firebase.Variant Firebase.Database.Internal.InternalDataSnapshot::value()
+extern void InternalDataSnapshot_value_mFD409F71BE0E82EE0B1E7811A7C709CF5E198133 (void);
+// 0x00000058 System.Void Firebase.Database.Internal.InternalFirebaseDatabase::.ctor(System.IntPtr,System.Boolean)
+extern void InternalFirebaseDatabase__ctor_m4254206AB58573A28C3FE1E3D1FE1C7D95E8BD93 (void);
+// 0x00000059 System.Runtime.InteropServices.HandleRef Firebase.Database.Internal.InternalFirebaseDatabase::getCPtr(Firebase.Database.Internal.InternalFirebaseDatabase)
+extern void InternalFirebaseDatabase_getCPtr_m0208AE9D9E511615C40AA4747AD67A0219F0B378 (void);
+// 0x0000005A System.Void Firebase.Database.Internal.InternalFirebaseDatabase::Finalize()
+extern void InternalFirebaseDatabase_Finalize_m0FCAFB5876430D62CEF0204F8E72A02AE7D4E547 (void);
+// 0x0000005B System.Void Firebase.Database.Internal.InternalFirebaseDatabase::Dispose()
+extern void InternalFirebaseDatabase_Dispose_m413ABD6C99EACADD5842CD5696AF10E29255EC70 (void);
+// 0x0000005C Firebase.Database.Internal.InternalDatabaseReference Firebase.Database.Internal.InternalFirebaseDatabase::GetReference(System.String)
+extern void InternalFirebaseDatabase_GetReference_m00248F0144085605261A71E86DF3B536048239F2 (void);
+// 0x0000005D Firebase.Database.Internal.InternalFirebaseDatabase Firebase.Database.Internal.InternalFirebaseDatabase::GetInstanceInternal(Firebase.FirebaseApp,System.String,Firebase.InitResult&)
+extern void InternalFirebaseDatabase_GetInstanceInternal_m6AFC797A4CCA2B52D59ED691B83855359FAC772F (void);
+// 0x0000005E System.Void Firebase.Database.Internal.InternalFirebaseDatabase::ReleaseReferenceInternal(Firebase.Database.Internal.InternalFirebaseDatabase)
+extern void InternalFirebaseDatabase_ReleaseReferenceInternal_m30CED62A62A60A82A8A6F9860843253067924623 (void);
+// 0x0000005F System.Void Firebase.Database.Internal.Future_InternalDataSnapshot::.ctor(System.IntPtr,System.Boolean)
+extern void Future_InternalDataSnapshot__ctor_mBD0542E2976FE5CE03F92C53F981AD18511E0B11 (void);
+// 0x00000060 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot::Finalize()
+extern void Future_InternalDataSnapshot_Finalize_mB7553CEE6FED6B3854801DE96B5F09EC78946A59 (void);
+// 0x00000061 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot::Dispose()
+extern void Future_InternalDataSnapshot_Dispose_m97702F3298F6866ACDB4DAF947376F3FE80FE261 (void);
+// 0x00000062 System.Threading.Tasks.Task`1<Firebase.Database.Internal.InternalDataSnapshot> Firebase.Database.Internal.Future_InternalDataSnapshot::GetTask(Firebase.Database.Internal.Future_InternalDataSnapshot)
+extern void Future_InternalDataSnapshot_GetTask_mA849249BF0D4F49613ED11751B8B7E0281E4C380 (void);
+// 0x00000063 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot::ThrowIfDisposed()
+extern void Future_InternalDataSnapshot_ThrowIfDisposed_mD724684DB59E023BCDA95A70A67FF931536F16B3 (void);
+// 0x00000064 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot::SetOnCompletionCallback(Firebase.Database.Internal.Future_InternalDataSnapshot/Action)
+extern void Future_InternalDataSnapshot_SetOnCompletionCallback_m388C32DC2FD7271395EC78E82CB4BDF60F08B570 (void);
+// 0x00000065 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot::SetCompletionData(System.IntPtr)
+extern void Future_InternalDataSnapshot_SetCompletionData_m1D3D08062F81C195B4298C7B980AA3EB166D5672 (void);
+// 0x00000066 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot::SWIG_CompletionDispatcher(System.Int32)
+extern void Future_InternalDataSnapshot_SWIG_CompletionDispatcher_m7905C61D5D9AE818AA4AC3F0F838FA01B5E4D852 (void);
+// 0x00000067 System.IntPtr Firebase.Database.Internal.Future_InternalDataSnapshot::SWIG_OnCompletion(Firebase.Database.Internal.Future_InternalDataSnapshot/SWIG_CompletionDelegate,System.Int32)
+extern void Future_InternalDataSnapshot_SWIG_OnCompletion_m7B5EEB5EB2E01FF2DF8F69C3523DBCFC7179E319 (void);
+// 0x00000068 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot::SWIG_FreeCompletionData(System.IntPtr)
+extern void Future_InternalDataSnapshot_SWIG_FreeCompletionData_m3F18A53533DF61CC0DC043AEC2AEB91ECB7EDD00 (void);
+// 0x00000069 Firebase.Database.Internal.InternalDataSnapshot Firebase.Database.Internal.Future_InternalDataSnapshot::GetResult()
+extern void Future_InternalDataSnapshot_GetResult_mB737568CE9D114E1F8464CE0F46AD7A3B0E273B3 (void);
+// 0x0000006A System.Void Firebase.Database.Internal.Future_InternalDataSnapshot::.cctor()
+extern void Future_InternalDataSnapshot__cctor_m51EAEA60B47247E5F619D654C80AEC67C7B79ACD (void);
+// 0x0000006B System.Void Firebase.Database.Internal.Future_InternalDataSnapshot/Action::.ctor(System.Object,System.IntPtr)
+extern void Action__ctor_mD4D4FE593498B18687FE8C1591C34F77F325A11A (void);
+// 0x0000006C System.Void Firebase.Database.Internal.Future_InternalDataSnapshot/Action::Invoke()
+extern void Action_Invoke_m1BF962C259EF45F747580BC1ACB7139C30D3D809 (void);
+// 0x0000006D System.IAsyncResult Firebase.Database.Internal.Future_InternalDataSnapshot/Action::BeginInvoke(System.AsyncCallback,System.Object)
+extern void Action_BeginInvoke_mE5E18243A8A7897EF1760AA7AAA461F92C50960D (void);
+// 0x0000006E System.Void Firebase.Database.Internal.Future_InternalDataSnapshot/Action::EndInvoke(System.IAsyncResult)
+extern void Action_EndInvoke_m4C0BB675CA2DA60083DCF1215151C06450D6DF07 (void);
+// 0x0000006F System.Void Firebase.Database.Internal.Future_InternalDataSnapshot/SWIG_CompletionDelegate::.ctor(System.Object,System.IntPtr)
+extern void SWIG_CompletionDelegate__ctor_mE0AC37E93A8DA64EBA7614EFDF0EC8177BD1EE64 (void);
+// 0x00000070 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot/SWIG_CompletionDelegate::Invoke(System.Int32)
+extern void SWIG_CompletionDelegate_Invoke_m703A41C6CEAB74514175A6213200DF67F6C79EBF (void);
+// 0x00000071 System.IAsyncResult Firebase.Database.Internal.Future_InternalDataSnapshot/SWIG_CompletionDelegate::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+extern void SWIG_CompletionDelegate_BeginInvoke_m013A3522139019F8A223CB324AEB6D969EE2F6F4 (void);
+// 0x00000072 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot/SWIG_CompletionDelegate::EndInvoke(System.IAsyncResult)
+extern void SWIG_CompletionDelegate_EndInvoke_m1B17CE7321E4119166B6DC80B6CD703F45B4B9B7 (void);
+// 0x00000073 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot/<GetTask>c__AnonStorey0::.ctor()
+extern void U3CGetTaskU3Ec__AnonStorey0__ctor_mA788F542E33A4820FB5D5940955D9516D0C51D39 (void);
+// 0x00000074 System.Void Firebase.Database.Internal.Future_InternalDataSnapshot/<GetTask>c__AnonStorey0::<>m__0()
+extern void U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_mFC6340F68B8E4E596967CB4A864D6C925D5F5655 (void);
+// 0x00000075 Firebase.Variant Firebase.Database.Internal.Utilities::MakeVariant(System.Object)
+extern void Utilities_MakeVariant_mBDECFCA5CCFAF0CF50DDB1DBD34F926031A2CE4A (void);
+// 0x00000076 System.Void Firebase.Database.Internal.InternalValueListener::.cctor()
+extern void InternalValueListener__cctor_m6465810D102962F7FEFB7876E4F75AB72B0D5877 (void);
+// 0x00000077 System.Void Firebase.Database.Internal.InternalValueListener::.ctor(Firebase.Database.Internal.InternalQuery,Firebase.Database.FirebaseDatabase)
+extern void InternalValueListener__ctor_m33BF6880327D5F9AFA1A432DE72323D38730FAC7 (void);
+// 0x00000078 System.Boolean Firebase.Database.Internal.InternalValueListener::TryGetListener(System.Int32,Firebase.Database.Internal.InternalValueListener&)
+extern void InternalValueListener_TryGetListener_m8D191EB665078398BE6D37D59B164BD3AF166F7E (void);
+// 0x00000079 System.Void Firebase.Database.Internal.InternalValueListener::OnValueChangedHandler(System.Int32,System.IntPtr)
+extern void InternalValueListener_OnValueChangedHandler_mA40B20FA26915907919D53C45D5BF5395ACE2BDA (void);
+// 0x0000007A System.Void Firebase.Database.Internal.InternalValueListener::OnCancelledHandler(System.Int32,Firebase.Database.Internal.Error,System.String)
+extern void InternalValueListener_OnCancelledHandler_mB24789B71507858E38EB48965B0D9FBD031959F7 (void);
+// 0x0000007B System.Void Firebase.Database.Internal.InternalValueListener::DestroyCppListener()
+extern void InternalValueListener_DestroyCppListener_m48A32F634EC202FD14D8222B9FE8A002A665FBF1 (void);
+// 0x0000007C System.Void Firebase.Database.Internal.InternalValueListener/OnValueChangedDelegate::.ctor(System.Object,System.IntPtr)
+extern void OnValueChangedDelegate__ctor_m1E5CB914A443BBEA65327C6909B8F35834782602 (void);
+// 0x0000007D System.Void Firebase.Database.Internal.InternalValueListener/OnValueChangedDelegate::Invoke(System.Int32,System.IntPtr)
+extern void OnValueChangedDelegate_Invoke_m001BBEE0573C71B012477DB670E05E5A0188A501 (void);
+// 0x0000007E System.IAsyncResult Firebase.Database.Internal.InternalValueListener/OnValueChangedDelegate::BeginInvoke(System.Int32,System.IntPtr,System.AsyncCallback,System.Object)
+extern void OnValueChangedDelegate_BeginInvoke_mE5F7C9F84E78214ECD0C32D76FA139EAA6A88AB8 (void);
+// 0x0000007F System.Void Firebase.Database.Internal.InternalValueListener/OnValueChangedDelegate::EndInvoke(System.IAsyncResult)
+extern void OnValueChangedDelegate_EndInvoke_m0F55B7BE7BC79401D21D6664E953EA0EF212EA60 (void);
+// 0x00000080 System.Void Firebase.Database.Internal.InternalValueListener/OnCancelledDelegate::.ctor(System.Object,System.IntPtr)
+extern void OnCancelledDelegate__ctor_mAA318FB742F18120A243B47FC6D72140EEC1DE16 (void);
+// 0x00000081 System.Void Firebase.Database.Internal.InternalValueListener/OnCancelledDelegate::Invoke(System.Int32,Firebase.Database.Internal.Error,System.String)
+extern void OnCancelledDelegate_Invoke_m90766BC908B6716A87215FDD6AC72B618E5BAD14 (void);
+// 0x00000082 System.IAsyncResult Firebase.Database.Internal.InternalValueListener/OnCancelledDelegate::BeginInvoke(System.Int32,Firebase.Database.Internal.Error,System.String,System.AsyncCallback,System.Object)
+extern void OnCancelledDelegate_BeginInvoke_mD08C61418D9963286D9DC1F9CCC87759605A3BB9 (void);
+// 0x00000083 System.Void Firebase.Database.Internal.InternalValueListener/OnCancelledDelegate::EndInvoke(System.IAsyncResult)
+extern void OnCancelledDelegate_EndInvoke_mB881B5BEC7CD77CF90FB393DBEEAFAAF05DF44EF (void);
+// 0x00000084 System.Void Firebase.Database.Internal.InternalValueListener/<OnValueChangedHandler>c__AnonStorey0::.ctor()
+extern void U3COnValueChangedHandlerU3Ec__AnonStorey0__ctor_mE348CB520803C141F981FF68AD8109BB8CD9155A (void);
+// 0x00000085 System.Void Firebase.Database.Internal.InternalValueListener/<OnValueChangedHandler>c__AnonStorey0::<>m__0()
+extern void U3COnValueChangedHandlerU3Ec__AnonStorey0_U3CU3Em__0_mDB964A1EF1CA2AA7BA57124523322644BD33CFB4 (void);
+// 0x00000086 System.Void Firebase.Database.Internal.InternalValueListener/<OnCancelledHandler>c__AnonStorey1::.ctor()
+extern void U3COnCancelledHandlerU3Ec__AnonStorey1__ctor_m16DA70EA0E84751261B659883535CD3CDC442FBF (void);
+// 0x00000087 System.Void Firebase.Database.Internal.InternalValueListener/<OnCancelledHandler>c__AnonStorey1::<>m__0()
+extern void U3COnCancelledHandlerU3Ec__AnonStorey1_U3CU3Em__0_mDE1B11AAEBA15DBB45A24DCB6D80A3F36CB51D81 (void);
+// 0x00000088 System.Void Firebase.Database.Internal.InternalListener::.ctor()
+extern void InternalListener__ctor_m79710E8F1FD901F6E8C6AEA2B5041B4FB06C905E (void);
+// 0x00000089 System.Boolean Firebase.Database.Internal.InternalListener::TryGetListener(System.Int32,Firebase.Database.Internal.InternalListener&)
+extern void InternalListener_TryGetListener_mA71371CAFDD9DF4B40B34441D7186E9FAA3159EC (void);
+// 0x0000008A System.Void Firebase.Database.Internal.InternalListener::Finalize()
+extern void InternalListener_Finalize_m402FCBC2490EE8E44B94C4A77F71F086ED888FD5 (void);
+// 0x0000008B System.Void Firebase.Database.Internal.InternalListener::Dispose()
+extern void InternalListener_Dispose_m2064F1B8862AF3AB856E8F8477DAAD68B7642FCE (void);
+// 0x0000008C System.Void Firebase.Database.Internal.InternalListener::DestroyCppListener()
+// 0x0000008D System.Void Firebase.Database.Internal.InternalListener::.cctor()
+extern void InternalListener__cctor_m1939E8AD0030007246A62C76EEA1455EC489E1A1 (void);
+// 0x0000008E System.Void Firebase.Database.Internal.InternalChildListener::.cctor()
+extern void InternalChildListener__cctor_mA4D2CC82B36620D623C9679CC1FA24409F63C0D1 (void);
+// 0x0000008F System.Void Firebase.Database.Internal.InternalChildListener::.ctor(Firebase.Database.Internal.InternalQuery,Firebase.Database.FirebaseDatabase)
+extern void InternalChildListener__ctor_m694203006FE0205106688331909EB8E290733831 (void);
+// 0x00000090 System.Boolean Firebase.Database.Internal.InternalChildListener::TryGetListener(System.Int32,Firebase.Database.Internal.InternalChildListener&)
+extern void InternalChildListener_TryGetListener_m41E36427FAA5985CB8FF0F6BEADB1A1146E85A18 (void);
+// 0x00000091 System.Void Firebase.Database.Internal.InternalChildListener::OnChildChangeHandler(System.Int32,Firebase.Database.Internal.ChildChangeType,System.IntPtr,System.String)
+extern void InternalChildListener_OnChildChangeHandler_m111693C2C3696B07FE2D29391D27DEF39BCF5BB5 (void);
+// 0x00000092 System.Void Firebase.Database.Internal.InternalChildListener::OnChildRemovedHandler(System.Int32,System.IntPtr)
+extern void InternalChildListener_OnChildRemovedHandler_mC4C07D126798B369EF865A3E0E6CCE30900C032F (void);
+// 0x00000093 System.Void Firebase.Database.Internal.InternalChildListener::OnCancelledHandler(System.Int32,Firebase.Database.Internal.Error,System.String)
+extern void InternalChildListener_OnCancelledHandler_m6027BABC8ED7A3782F0660E4D4BC1ACDBBFC19FF (void);
+// 0x00000094 System.Void Firebase.Database.Internal.InternalChildListener::DestroyCppListener()
+extern void InternalChildListener_DestroyCppListener_m5C9240D0BCC8DCAE2D8AA0EA81D238AAF18BB00D (void);
+// 0x00000095 System.Void Firebase.Database.Internal.InternalChildListener/OnCancelledDelegate::.ctor(System.Object,System.IntPtr)
+extern void OnCancelledDelegate__ctor_mAC9F991B98CED300FF2BC7902FF1DB48253E641C (void);
+// 0x00000096 System.Void Firebase.Database.Internal.InternalChildListener/OnCancelledDelegate::Invoke(System.Int32,Firebase.Database.Internal.Error,System.String)
+extern void OnCancelledDelegate_Invoke_m197A669A3FDAA0A2D46DA26EB8EF65FA2576E6AA (void);
+// 0x00000097 System.IAsyncResult Firebase.Database.Internal.InternalChildListener/OnCancelledDelegate::BeginInvoke(System.Int32,Firebase.Database.Internal.Error,System.String,System.AsyncCallback,System.Object)
+extern void OnCancelledDelegate_BeginInvoke_m3246E7F8127D7DF49C21627DEEF4A6D3327A12FE (void);
+// 0x00000098 System.Void Firebase.Database.Internal.InternalChildListener/OnCancelledDelegate::EndInvoke(System.IAsyncResult)
+extern void OnCancelledDelegate_EndInvoke_m305956966B7B06FB9E599C3B28D1BE19FB82A632 (void);
+// 0x00000099 System.Void Firebase.Database.Internal.InternalChildListener/OnChildChangeDelegate::.ctor(System.Object,System.IntPtr)
+extern void OnChildChangeDelegate__ctor_m905FC42ABBD238AD00D4CA41B4FEA96EB9E16D23 (void);
+// 0x0000009A System.Void Firebase.Database.Internal.InternalChildListener/OnChildChangeDelegate::Invoke(System.Int32,Firebase.Database.Internal.ChildChangeType,System.IntPtr,System.String)
+extern void OnChildChangeDelegate_Invoke_m0E282F7DBE982B5A4A8073FA83D82002CE243355 (void);
+// 0x0000009B System.IAsyncResult Firebase.Database.Internal.InternalChildListener/OnChildChangeDelegate::BeginInvoke(System.Int32,Firebase.Database.Internal.ChildChangeType,System.IntPtr,System.String,System.AsyncCallback,System.Object)
+extern void OnChildChangeDelegate_BeginInvoke_m0F1CE19FFA21A7B95B6B3C2A581369229C0AB1EC (void);
+// 0x0000009C System.Void Firebase.Database.Internal.InternalChildListener/OnChildChangeDelegate::EndInvoke(System.IAsyncResult)
+extern void OnChildChangeDelegate_EndInvoke_m1B731E38F19BA6A18E47970D7CA0EBDCB3068575 (void);
+// 0x0000009D System.Void Firebase.Database.Internal.InternalChildListener/OnChildRemovedDelegate::.ctor(System.Object,System.IntPtr)
+extern void OnChildRemovedDelegate__ctor_m3DA4B6DA14D6A7733B2D3BF6F5721F7E8A811E84 (void);
+// 0x0000009E System.Void Firebase.Database.Internal.InternalChildListener/OnChildRemovedDelegate::Invoke(System.Int32,System.IntPtr)
+extern void OnChildRemovedDelegate_Invoke_mFAE8292457FB6B629C4E6E8B500732D82762B29B (void);
+// 0x0000009F System.IAsyncResult Firebase.Database.Internal.InternalChildListener/OnChildRemovedDelegate::BeginInvoke(System.Int32,System.IntPtr,System.AsyncCallback,System.Object)
+extern void OnChildRemovedDelegate_BeginInvoke_m48FACEFA435E90F16907B5B227CF0D800958C0EF (void);
+// 0x000000A0 System.Void Firebase.Database.Internal.InternalChildListener/OnChildRemovedDelegate::EndInvoke(System.IAsyncResult)
+extern void OnChildRemovedDelegate_EndInvoke_m835630F0A71AC34DD23DB5D4D4591C514BC68B89 (void);
+// 0x000000A1 System.Void Firebase.Database.Internal.InternalChildListener/<OnChildChangeHandler>c__AnonStorey0::.ctor()
+extern void U3COnChildChangeHandlerU3Ec__AnonStorey0__ctor_m3F0222C7469ACF362ACF082D5A7B3E95194D3FA6 (void);
+// 0x000000A2 System.Void Firebase.Database.Internal.InternalChildListener/<OnChildChangeHandler>c__AnonStorey0::<>m__0()
+extern void U3COnChildChangeHandlerU3Ec__AnonStorey0_U3CU3Em__0_m8D036E948FE5F0D8033360D715E7E2F3282DC29E (void);
+// 0x000000A3 System.Void Firebase.Database.Internal.InternalChildListener/<OnChildRemovedHandler>c__AnonStorey1::.ctor()
+extern void U3COnChildRemovedHandlerU3Ec__AnonStorey1__ctor_m7E6AE23F4E493961862651CCCDD4F7D8BC58E493 (void);
+// 0x000000A4 System.Void Firebase.Database.Internal.InternalChildListener/<OnChildRemovedHandler>c__AnonStorey1::<>m__0()
+extern void U3COnChildRemovedHandlerU3Ec__AnonStorey1_U3CU3Em__0_mAE7AAAFE60ACB5EB41753A9D7FD24987399C11FF (void);
+// 0x000000A5 System.Void Firebase.Database.Internal.InternalChildListener/<OnCancelledHandler>c__AnonStorey2::.ctor()
+extern void U3COnCancelledHandlerU3Ec__AnonStorey2__ctor_mFFE132800267C1A72DFBDC65B4F1F1E10FBEABE0 (void);
+// 0x000000A6 System.Void Firebase.Database.Internal.InternalChildListener/<OnCancelledHandler>c__AnonStorey2::<>m__0()
+extern void U3COnCancelledHandlerU3Ec__AnonStorey2_U3CU3Em__0_mC2B193143B43BA821FF81A8AFDEAE4C94148690E (void);
+// 0x000000A7 System.Void Firebase.Database.ValueChangedEventArgs::.ctor(Firebase.Database.DataSnapshot)
+extern void ValueChangedEventArgs__ctor_m379BA084F6E53F5B2DD49386D43DF6AF94CACF81 (void);
+// 0x000000A8 System.Void Firebase.Database.ValueChangedEventArgs::.ctor(Firebase.Database.DatabaseError)
+extern void ValueChangedEventArgs__ctor_m4FDC6BB1BC5E618849D97A391F097F726CE997E4 (void);
+// 0x000000A9 System.Void Firebase.Database.ValueChangedEventArgs::set_Snapshot(Firebase.Database.DataSnapshot)
+extern void ValueChangedEventArgs_set_Snapshot_mA7EF06296508E6B5632A967C65E17F632E445A71 (void);
+// 0x000000AA Firebase.Database.DatabaseError Firebase.Database.ValueChangedEventArgs::get_DatabaseError()
+extern void ValueChangedEventArgs_get_DatabaseError_mDA4237FD56F013E2FAF491B80E9DA90FC8513242 (void);
+// 0x000000AB System.Void Firebase.Database.ValueChangedEventArgs::set_DatabaseError(Firebase.Database.DatabaseError)
+extern void ValueChangedEventArgs_set_DatabaseError_mF56E13C79AC85F6415ECABC7E63B0C86EB864D40 (void);
+// 0x000000AC System.Void Firebase.Database.Query::.ctor(Firebase.Database.Internal.InternalQuery,Firebase.Database.FirebaseDatabase)
+extern void Query__ctor_m552F3EFCA95A9C93A383A34876A17C3591230A36 (void);
+// 0x000000AD System.Boolean Firebase.Database.Query::CheckTaskStatus(System.Threading.Tasks.Task,System.Threading.Tasks.TaskCompletionSource`1<TResult>)
+// 0x000000AE System.Threading.Tasks.Task`1<Firebase.Database.DataSnapshot> Firebase.Database.Query::WrapInternalDataSnapshotTask(System.Threading.Tasks.Task`1<Firebase.Database.Internal.InternalDataSnapshot>)
+extern void Query_WrapInternalDataSnapshotTask_mD66B30C95FF21216495D9F24C95C388DDE50DD83 (void);
+// 0x000000AF System.Threading.Tasks.Task`1<Firebase.Database.DataSnapshot> Firebase.Database.Query::GetValueAsync()
+extern void Query_GetValueAsync_m1DE61C007517461EE4E0789CE6A480570B1564C8 (void);
+// 0x000000B0 System.Void Firebase.Database.Query/<WrapInternalDataSnapshotTask>c__AnonStorey0::.ctor()
+extern void U3CWrapInternalDataSnapshotTaskU3Ec__AnonStorey0__ctor_m5BA902CFC5CFE89B09B422D5F4A967CBA50CDE05 (void);
+// 0x000000B1 System.Void Firebase.Database.Query/<WrapInternalDataSnapshotTask>c__AnonStorey0::<>m__0(System.Threading.Tasks.Task`1<Firebase.Database.Internal.InternalDataSnapshot>)
+extern void U3CWrapInternalDataSnapshotTaskU3Ec__AnonStorey0_U3CU3Em__0_m22FFF028B3E9BB0B1DDCBD737A2EFEA9578B5DC0 (void);
+// 0x000000B2 System.Void Firebase.Database.FirebaseDatabase::.ctor(Firebase.FirebaseApp,Firebase.Database.Internal.InternalFirebaseDatabase)
+extern void FirebaseDatabase__ctor_m3DCF10547AE51EC2489E9D5721C2C2C8F4BB4312 (void);
+// 0x000000B3 System.Void Firebase.Database.FirebaseDatabase::Finalize()
+extern void FirebaseDatabase_Finalize_mDFB31597C9E456D5A72953FC2B07058BA97C5A66 (void);
+// 0x000000B4 System.Void Firebase.Database.FirebaseDatabase::OnAppDisposed(System.Object,System.EventArgs)
+extern void FirebaseDatabase_OnAppDisposed_m47C09B6E45483FFE71C9D0933E1F2B4829504359 (void);
+// 0x000000B5 System.Void Firebase.Database.FirebaseDatabase::Dispose()
+extern void FirebaseDatabase_Dispose_m80A3AEFD4797B025F808225460CDE1AE5652BC12 (void);
+// 0x000000B6 Firebase.FirebaseApp Firebase.Database.FirebaseDatabase::get_App()
+extern void FirebaseDatabase_get_App_m93AA2C6AE670C913DED5B495355537612429DEBD (void);
+// 0x000000B7 System.Void Firebase.Database.FirebaseDatabase::set_App(Firebase.FirebaseApp)
+extern void FirebaseDatabase_set_App_mAB8EC36294084545DDF7F18AFDB2DBA696D5E037 (void);
+// 0x000000B8 Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::get_DefaultInstance()
+extern void FirebaseDatabase_get_DefaultInstance_m75D618D373BDD71ACEA9A351126AB3F937B69D4A (void);
+// 0x000000B9 Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::GetInstance(Firebase.FirebaseApp)
+extern void FirebaseDatabase_GetInstance_m76521A08A8A8C5388359A14B8F880AE83CE73110 (void);
+// 0x000000BA Firebase.Database.FirebaseDatabase Firebase.Database.FirebaseDatabase::GetInstance(Firebase.FirebaseApp,System.String)
+extern void FirebaseDatabase_GetInstance_mF0005360FD07073793D18180159FCAAAFE21C539 (void);
+// 0x000000BB Firebase.Database.DatabaseReference Firebase.Database.FirebaseDatabase::GetReference(System.String)
+extern void FirebaseDatabase_GetReference_mEB739ABE53B33393ED40B60B03C44AEB4525BD85 (void);
+// 0x000000BC System.Void Firebase.Database.FirebaseDatabase::.cctor()
+extern void FirebaseDatabase__cctor_m7CA2F9F63C990ABFEAC91DC0C53ABFF9DFE86583 (void);
+// 0x000000BD System.Void Firebase.Database.DatabaseReference::.ctor(Firebase.Database.Internal.InternalDatabaseReference,Firebase.Database.FirebaseDatabase)
+extern void DatabaseReference__ctor_mD496EC179B693747AF9272C2F2CFAB37AF2771B1 (void);
+// 0x000000BE Firebase.Database.FirebaseDatabase Firebase.Database.DatabaseReference::get_Database()
+extern void DatabaseReference_get_Database_m5B48BFC961F40B393872F5CDCBAC0E08CF6C639F (void);
+// 0x000000BF System.Void Firebase.Database.DatabaseReference::set_Database(Firebase.Database.FirebaseDatabase)
+extern void DatabaseReference_set_Database_m282D95F9AD43BBE5C0730E1EA650BF37ADFADAA2 (void);
+// 0x000000C0 Firebase.Database.DatabaseReference Firebase.Database.DatabaseReference::Child(System.String)
+extern void DatabaseReference_Child_mE0A765A60474B18C36B908672485FC79D8676118 (void);
+// 0x000000C1 System.Threading.Tasks.Task Firebase.Database.DatabaseReference::SetValueAsync(System.Object)
+extern void DatabaseReference_SetValueAsync_mD4504503AA31C8000522284B7F105154F845E043 (void);
+// 0x000000C2 System.String Firebase.Database.DatabaseReference::ToString()
+extern void DatabaseReference_ToString_m2BB61CB7DDDCDDADA46F1C6EA588938F2413FDD6 (void);
+// 0x000000C3 System.Boolean Firebase.Database.DatabaseReference::Equals(System.Object)
+extern void DatabaseReference_Equals_mB1C04B6F3F60D03B3097F2BE0D5B387EAFE2FC24 (void);
+// 0x000000C4 System.Int32 Firebase.Database.DatabaseReference::GetHashCode()
+extern void DatabaseReference_GetHashCode_mE3528E66EEB75B578CA801273B3209DC2F29A345 (void);
+// 0x000000C5 System.Threading.Tasks.Task Firebase.Database.DatabaseReference::WrapInternalDefaultTask(System.Threading.Tasks.Task)
+extern void DatabaseReference_WrapInternalDefaultTask_m503C41969A7AF3D1C67210D73A53F1A82566C418 (void);
+// 0x000000C6 System.Void Firebase.Database.DatabaseReference/<WrapInternalDefaultTask>c__AnonStorey1::.ctor()
+extern void U3CWrapInternalDefaultTaskU3Ec__AnonStorey1__ctor_mCC02637695ECB17EEC2E7B4E63AF6D57A9DFBFDC (void);
+// 0x000000C7 System.Void Firebase.Database.DatabaseReference/<WrapInternalDefaultTask>c__AnonStorey1::<>m__0(System.Threading.Tasks.Task)
+extern void U3CWrapInternalDefaultTaskU3Ec__AnonStorey1_U3CU3Em__0_m63B754C86A483639558EF7E00FEE1F287CF4D007 (void);
+// 0x000000C8 System.Void Firebase.Database.DatabaseException::.ctor(System.String)
+extern void DatabaseException__ctor_m5067A29469F9322D223E0A094F11D696548E9E7F (void);
+// 0x000000C9 System.Void Firebase.Database.DatabaseException::.ctor(System.String,System.Exception)
+extern void DatabaseException__ctor_mE3245AEE1FB5FA49586C2798D432BC6A0D504353 (void);
+// 0x000000CA System.Void Firebase.Database.DatabaseError::.cctor()
+extern void DatabaseError__cctor_mFEFA69C2061DBC1CF702174AC717155254531906 (void);
+// 0x000000CB System.Void Firebase.Database.DatabaseError::.ctor(System.Int32,System.String,System.String)
+extern void DatabaseError__ctor_m38B3479297DC749697FAEF989342AC0E34A39C31 (void);
+// 0x000000CC System.Void Firebase.Database.DatabaseError::set_Code(System.Int32)
+extern void DatabaseError_set_Code_m17A129E452E44A91FB0CD1D1303C8CFF3F0793C2 (void);
+// 0x000000CD System.String Firebase.Database.DatabaseError::get_Message()
+extern void DatabaseError_get_Message_mB65407A635E3D7C51491173E3B6FA7262BC509AF (void);
+// 0x000000CE System.Void Firebase.Database.DatabaseError::set_Message(System.String)
+extern void DatabaseError_set_Message_m54166FC06EE023916325942F18AD855E5548804F (void);
+// 0x000000CF System.Void Firebase.Database.DatabaseError::set_Details(System.String)
+extern void DatabaseError_set_Details_m4C35CD0623CE87CA0D1941A7475320DF51BB25CA (void);
+// 0x000000D0 System.Int32 Firebase.Database.DatabaseError::ErrorToCode(Firebase.Database.Internal.Error)
+extern void DatabaseError_ErrorToCode_mA2AFFC06A2E8A6C5A71394A01C3D759402C5D231 (void);
+// 0x000000D1 Firebase.Database.DatabaseError Firebase.Database.DatabaseError::FromError(Firebase.Database.Internal.Error,System.String)
+extern void DatabaseError_FromError_m74CA7DACBF40FE664D4B088E9B8A615D61DC769B (void);
+// 0x000000D2 System.String Firebase.Database.DatabaseError::ToString()
+extern void DatabaseError_ToString_m58D8F77BE9B3CD0CABEAFAD51BBC03A128391BD1 (void);
+// 0x000000D3 System.Void Firebase.Database.DataSnapshot::.ctor(Firebase.Database.Internal.InternalDataSnapshot,Firebase.Database.FirebaseDatabase,Firebase.Database.DataSnapshot,Firebase.Database.DataSnapshot/DataSnapshotList)
+extern void DataSnapshot__ctor_mB741141480AB067EC1E1BF5EFAA57EC52F6AA590 (void);
+// 0x000000D4 Firebase.Database.DataSnapshot Firebase.Database.DataSnapshot::CreateSnapshot(Firebase.Database.Internal.InternalDataSnapshot,Firebase.Database.FirebaseDatabase)
+extern void DataSnapshot_CreateSnapshot_m95E10FC734582079840902AA6B7734600FFD88E2 (void);
+// 0x000000D5 System.Object Firebase.Database.DataSnapshot::get_Value()
+extern void DataSnapshot_get_Value_mD2CC38B1B1053529402B7BCAB2129C80D63E9821 (void);
+// 0x000000D6 System.Int64 Firebase.Database.DataSnapshot::get_ChildrenCount()
+extern void DataSnapshot_get_ChildrenCount_m83156FA2994A52EC998447FE606CCADA08283C65 (void);
+// 0x000000D7 System.String Firebase.Database.DataSnapshot::get_Key()
+extern void DataSnapshot_get_Key_m5FE3B41597AB6C593B50F13F2EF059DAED8C3E74 (void);
+// 0x000000D8 Firebase.Database.DataSnapshot Firebase.Database.DataSnapshot::Child(System.String)
+extern void DataSnapshot_Child_m51E603CB4C964BF967BAEA9E7332FEA365C51F5A (void);
+// 0x000000D9 System.Object Firebase.Database.DataSnapshot::GetValue(System.Boolean)
+extern void DataSnapshot_GetValue_m19EF009E5CD1AE6F6A9EBD6C5475682BEF7E950E (void);
+// 0x000000DA System.String Firebase.Database.DataSnapshot::ToString()
+extern void DataSnapshot_ToString_m900D014709B804D80A3550913A3DB12B18B5630A (void);
+// 0x000000DB System.Void Firebase.Database.ChildChangedEventArgs::.ctor(Firebase.Database.DataSnapshot,System.String)
+extern void ChildChangedEventArgs__ctor_mEFA05E8BE4CF521CCD301438B1D0D2AAAD4646F8 (void);
+// 0x000000DC System.Void Firebase.Database.ChildChangedEventArgs::.ctor(Firebase.Database.DatabaseError)
+extern void ChildChangedEventArgs__ctor_mD42C6C55669872BB1FE653538F28E73C3F9AA9BD (void);
+// 0x000000DD System.Void Firebase.Database.ChildChangedEventArgs::set_Snapshot(Firebase.Database.DataSnapshot)
+extern void ChildChangedEventArgs_set_Snapshot_m8B1970EEE6D0F1E90AEF6BDA0ED94F0C38F33922 (void);
+// 0x000000DE System.Void Firebase.Database.ChildChangedEventArgs::set_DatabaseError(Firebase.Database.DatabaseError)
+extern void ChildChangedEventArgs_set_DatabaseError_m2AFF0A9E85368545CB897E95C39247301254440A (void);
+// 0x000000DF System.Void Firebase.Database.ChildChangedEventArgs::set_PreviousChildName(System.String)
+extern void ChildChangedEventArgs_set_PreviousChildName_mA4DE9565B9657161571B217BAD3940297B6F110C (void);
+static Il2CppMethodPointer s_methodPointers[223] = 
+{
+	DatabaseInternalPINVOKE__cctor_m2D506701ECDCB47E1E7F7ACC17151E89BBDF8C0E,
+	DatabaseInternalPINVOKE_Future_InternalDataSnapshot_SWIG_OnCompletion_mA0DED14E3561D819D7E0397E3913E7314B87541C,
+	DatabaseInternalPINVOKE_Future_InternalDataSnapshot_SWIG_FreeCompletionData_m4D81AB15E952BF6AE792FD5F60AA0FA9235D2FA1,
+	DatabaseInternalPINVOKE_Future_InternalDataSnapshot_GetResult_m2073A527E21D604DFCAF41639DEA72E51E66C02D,
+	DatabaseInternalPINVOKE_delete_Future_InternalDataSnapshot_m2FA6462AA0D2A83585E7B48C6E5F1C983247C72C,
+	DatabaseInternalPINVOKE_InternalFirebaseDatabase_GetReference__SWIG_1_m060B421C5CBC1D52E694230311305CFD754BA940,
+	DatabaseInternalPINVOKE_InternalFirebaseDatabase_GetInstanceInternal_m43AACA690F46EBE31EABD5915E3AE4354BB6B43C,
+	DatabaseInternalPINVOKE_InternalFirebaseDatabase_ReleaseReferenceInternal_m388E5FAEED5165B0436798890542316F5CCE3257,
+	DatabaseInternalPINVOKE_delete_InternalDataSnapshot_mDDFCA22392FFAF54567FD82BF2B9D7A796DE4E9F,
+	DatabaseInternalPINVOKE_InternalDataSnapshot_Child__SWIG_0_mFCEE4A105D23E018339A4505D2D160C949711A1C,
+	DatabaseInternalPINVOKE_InternalDataSnapshot_children_count_m5DFF5116665D85DB13123F18B676276B014671E8,
+	DatabaseInternalPINVOKE_InternalDataSnapshot_key_string_mA25B4DF17C3D845478EA6F6F21BAFF9EE2F9E8BC,
+	DatabaseInternalPINVOKE_InternalDataSnapshot_value_mDF6D5972AAF7D91909084E981714D382839F3333,
+	DatabaseInternalPINVOKE_delete_InternalQuery_m023CE0E50B978E5D46AE8A1F7161CF290267CCC2,
+	DatabaseInternalPINVOKE_InternalQuery_GetValue_mE2CF042B1C933B78675ECA6D1420C5D436116816,
+	DatabaseInternalPINVOKE_InternalQuery_is_valid_mC0E9BA5D04DEA2D356FC8CAAA958352398DA417C,
+	DatabaseInternalPINVOKE_InternalQuery_DestroyValueListener_m407802DFD831DB804F56D809021041FAB354D691,
+	DatabaseInternalPINVOKE_InternalQuery_RegisterValueListenerCallbacks_mDEA0C334FF8CA643D88CDAEA4EEA95CED795D422,
+	DatabaseInternalPINVOKE_InternalQuery_DestroyChildListener_mDE35BC02799F9DBFF67D6082600B339A5815D301,
+	DatabaseInternalPINVOKE_InternalQuery_RegisterChildListenerCallbacks_m95618B358A1C0409EE1DC966680D1B7698034E35,
+	DatabaseInternalPINVOKE_delete_InternalDatabaseReference_m32BE1C44D7CE3CB520C4A67E9CD1B9711F96F3E4,
+	DatabaseInternalPINVOKE_InternalDatabaseReference_is_valid_m0234402DE1593B492FF750B739F65419FE1105C2,
+	DatabaseInternalPINVOKE_InternalDatabaseReference_Child__SWIG_0_mF5C03E9E5DDE9F7411170C6459D6793A19D56BEF,
+	DatabaseInternalPINVOKE_InternalDatabaseReference_SetValue_mBA4E1E8C58EA9E8A104BE85362A8E7D44801434B,
+	DatabaseInternalPINVOKE_InternalDatabaseReference_url_m0A94EF6FC89BF0DA6B2D8618BA031FE357FDD4C7,
+	DatabaseInternalPINVOKE_Future_InternalDataSnapshot_SWIGUpcast_m2BB095E0CE65BE23C68F3DE7E2820BFC6F148D79,
+	DatabaseInternalPINVOKE_InternalDatabaseReference_SWIGUpcast_m0E233D4C84E4A1BE24A0468F1BFF9D27817C5F1D,
+	SWIGExceptionHelper__cctor_m5DAD7A2AFC923954B0010750C19AD9299543845C,
+	SWIGExceptionHelper__ctor_m0ADB82550973C1BB4A57B3132C00D087565746C3,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_DatabaseInternal_mDD5933C26B5EE8A65766383EEA892836BCE887E4,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_DatabaseInternal_m9B3FBB6656A7EF3E9ED980A8955232D994B26696,
+	SWIGExceptionHelper_SetPendingApplicationException_m0F996413862002E3DD7FDD548EA24FBA1FF5AB09,
+	SWIGExceptionHelper_SetPendingArithmeticException_mFF75740AD491554899C097E0DADC53F7BD9B648B,
+	SWIGExceptionHelper_SetPendingDivideByZeroException_mECC442D4BA10495F1BD419C6AD29532037348E84,
+	SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m0A7C01CC0882A4E72DF371C5072D20C368744F41,
+	SWIGExceptionHelper_SetPendingInvalidCastException_m3173701684EF764B16D4DAE820BD88C8A5311AC8,
+	SWIGExceptionHelper_SetPendingInvalidOperationException_m3C325A55848E3FC203DA02C6B477FD51C8467CEB,
+	SWIGExceptionHelper_SetPendingIOException_m37109E9C6FE3E8E0A6670C71B07FD3AA6BB87294,
+	SWIGExceptionHelper_SetPendingNullReferenceException_m2B27B45C6AF0D649049D2B61E4489E3A44CAA0A5,
+	SWIGExceptionHelper_SetPendingOutOfMemoryException_m1F571A4058F2A2AC6170CBBA6A3332460BE78EFE,
+	SWIGExceptionHelper_SetPendingOverflowException_mD37F18C4EE97E0C708E7C336F8391E8F4C87B9CD,
+	SWIGExceptionHelper_SetPendingSystemException_mA373DD8147413E53F25953713F3785AFCA8D4CE3,
+	SWIGExceptionHelper_SetPendingArgumentException_m814FE6192698629E0DFBB16FEA3E3173833B47B3,
+	SWIGExceptionHelper_SetPendingArgumentNullException_mEDFDDC2387E881554214C5B8DE33BF35215B7042,
+	SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mA88C63402F8142B4B866BC0DD46EE47853411DC2,
+	ExceptionDelegate__ctor_m284E32D68B64BA26EA082FDEA3719C06EDEB5953,
+	ExceptionDelegate_Invoke_mE6FA5905EB58B7E24B27878A286398BB1AD60D37,
+	ExceptionDelegate_BeginInvoke_m4BE4AFB0EE65C4EE3AD33A4446F1E2528F1BCDB4,
+	ExceptionDelegate_EndInvoke_m09C7BE40F9B61F679D83C70721B5C71FBF763483,
+	ExceptionArgumentDelegate__ctor_m2218A5FD8E97C779CB0C978A08CBD7C38679900F,
+	ExceptionArgumentDelegate_Invoke_mEBDC0CA8F10C79F697B4597CEEFC327EB35DB726,
+	ExceptionArgumentDelegate_BeginInvoke_m1F64DEDB3EC6328A5BA96EDEF8D80486C5F8451B,
+	ExceptionArgumentDelegate_EndInvoke_m656951391F1A7B635CD4CAC46CDA0CB5D016CB1B,
+	SWIGPendingException_get_Pending_m3155096CD216BD668643EDC7D9F76612A32DA86A,
+	SWIGPendingException_Set_mEB47FC268D105585A346BF7AD739894E30461177,
+	SWIGPendingException_Retrieve_m12D105915687E89EBB9CE8446A66F671294A828E,
+	SWIGStringHelper__cctor_m5C1032DAB951169BA2A4C1B2729ACBA3D540F066,
+	SWIGStringHelper__ctor_m5FCC61DE0A2198978283B58325176E9BE096021B,
+	SWIGStringHelper_SWIGRegisterStringCallback_DatabaseInternal_m7D80EA63ED56EBDB86B4DD48B717AFC0C1D45038,
+	SWIGStringHelper_CreateString_m1B4CB3A2C3DCEF73AF006FF16442D1EEFDDB6384,
+	SWIGStringDelegate__ctor_m04F81FC6C90DC3A07C7BC11BC63C5D8D859FE6FE,
+	SWIGStringDelegate_Invoke_m632E7B90E5EE36D5B0BBE6EC8C9C68B6F3DC04E6,
+	SWIGStringDelegate_BeginInvoke_mEAA10B2BA061D5AC655F5DAA8604E80697F37550,
+	SWIGStringDelegate_EndInvoke_m40BCFFDDEF5EA045528011532052C87905EA97E7,
+	InternalDatabaseReference__ctor_mAD8499D9D769CCD45207112000EE7AF91CFD202D,
+	InternalDatabaseReference_Finalize_mDA077A20E69EA6B292EB99868A8FB35F1674445E,
+	InternalDatabaseReference_Dispose_m7A34A1859B39A814ACF30F7E64842454E0B3C768,
+	InternalDatabaseReference_is_valid_mB4B11E42888407DCEAF91D4039CFDEDDD0BFFA0C,
+	InternalDatabaseReference_Child_mD9B60C8BAA5925CBC5A4DFC730AEBB594DA14168,
+	InternalDatabaseReference_SetValueAsync_m1BB0CDA53E8537C5F419001A6339E7280BFAD0E9,
+	InternalDatabaseReference_url_m75413615D60C2ED0D1EED5593DA41A98C7C02E46,
+	InternalQuery__ctor_m736CC3B9078648C1EF156BFA18FBA806C721D5F4,
+	InternalQuery_Finalize_mB8C23C8750171A9332CE19F1673D6B840030144A,
+	InternalQuery_Dispose_m513030CE720E2CB96D768F3DE923DAB3BC557A46,
+	InternalQuery_GetValueAsync_m611875BC39C804373A70F5E501C80A5C7394DD48,
+	InternalQuery_is_valid_m77F5C421E26AA0EB8CC6EB64293A7DFA0EF168DA,
+	InternalQuery_DestroyValueListener_m274A8010A85AD724836E9F5FE18AB1B8BDCF95C0,
+	InternalQuery_RegisterValueListenerCallbacks_mB06CDAA0D4A24EA071875E618C12ABAA1B21201B,
+	InternalQuery_DestroyChildListener_m574B9F1F70D80C9104E164EE160233BBA6F3F958,
+	InternalQuery_RegisterChildListenerCallbacks_m342FC1A852F73C6495982A6E25105C7D476179C2,
+	InternalDataSnapshot__ctor_mC8A7803BFA8D85177E7EFD11ABA7652B82842DAF,
+	InternalDataSnapshot_Finalize_m585B370EDA47B63D114FC49260601FB46AF04511,
+	InternalDataSnapshot_Dispose_mD0DA4256BC7602E86C23AA5E36D07EA4458FED13,
+	InternalDataSnapshot_Child_m0C3CD54CDE33C62A364C33257CCBCDD1B4C124EE,
+	InternalDataSnapshot_children_count_m47221060F5732445F59EE64CBDAC6BB3DF869410,
+	InternalDataSnapshot_key_string_mA08D3ACDC44D92546C101D520B4204945D3C218E,
+	InternalDataSnapshot_value_mFD409F71BE0E82EE0B1E7811A7C709CF5E198133,
+	InternalFirebaseDatabase__ctor_m4254206AB58573A28C3FE1E3D1FE1C7D95E8BD93,
+	InternalFirebaseDatabase_getCPtr_m0208AE9D9E511615C40AA4747AD67A0219F0B378,
+	InternalFirebaseDatabase_Finalize_m0FCAFB5876430D62CEF0204F8E72A02AE7D4E547,
+	InternalFirebaseDatabase_Dispose_m413ABD6C99EACADD5842CD5696AF10E29255EC70,
+	InternalFirebaseDatabase_GetReference_m00248F0144085605261A71E86DF3B536048239F2,
+	InternalFirebaseDatabase_GetInstanceInternal_m6AFC797A4CCA2B52D59ED691B83855359FAC772F,
+	InternalFirebaseDatabase_ReleaseReferenceInternal_m30CED62A62A60A82A8A6F9860843253067924623,
+	Future_InternalDataSnapshot__ctor_mBD0542E2976FE5CE03F92C53F981AD18511E0B11,
+	Future_InternalDataSnapshot_Finalize_mB7553CEE6FED6B3854801DE96B5F09EC78946A59,
+	Future_InternalDataSnapshot_Dispose_m97702F3298F6866ACDB4DAF947376F3FE80FE261,
+	Future_InternalDataSnapshot_GetTask_mA849249BF0D4F49613ED11751B8B7E0281E4C380,
+	Future_InternalDataSnapshot_ThrowIfDisposed_mD724684DB59E023BCDA95A70A67FF931536F16B3,
+	Future_InternalDataSnapshot_SetOnCompletionCallback_m388C32DC2FD7271395EC78E82CB4BDF60F08B570,
+	Future_InternalDataSnapshot_SetCompletionData_m1D3D08062F81C195B4298C7B980AA3EB166D5672,
+	Future_InternalDataSnapshot_SWIG_CompletionDispatcher_m7905C61D5D9AE818AA4AC3F0F838FA01B5E4D852,
+	Future_InternalDataSnapshot_SWIG_OnCompletion_m7B5EEB5EB2E01FF2DF8F69C3523DBCFC7179E319,
+	Future_InternalDataSnapshot_SWIG_FreeCompletionData_m3F18A53533DF61CC0DC043AEC2AEB91ECB7EDD00,
+	Future_InternalDataSnapshot_GetResult_mB737568CE9D114E1F8464CE0F46AD7A3B0E273B3,
+	Future_InternalDataSnapshot__cctor_m51EAEA60B47247E5F619D654C80AEC67C7B79ACD,
+	Action__ctor_mD4D4FE593498B18687FE8C1591C34F77F325A11A,
+	Action_Invoke_m1BF962C259EF45F747580BC1ACB7139C30D3D809,
+	Action_BeginInvoke_mE5E18243A8A7897EF1760AA7AAA461F92C50960D,
+	Action_EndInvoke_m4C0BB675CA2DA60083DCF1215151C06450D6DF07,
+	SWIG_CompletionDelegate__ctor_mE0AC37E93A8DA64EBA7614EFDF0EC8177BD1EE64,
+	SWIG_CompletionDelegate_Invoke_m703A41C6CEAB74514175A6213200DF67F6C79EBF,
+	SWIG_CompletionDelegate_BeginInvoke_m013A3522139019F8A223CB324AEB6D969EE2F6F4,
+	SWIG_CompletionDelegate_EndInvoke_m1B17CE7321E4119166B6DC80B6CD703F45B4B9B7,
+	U3CGetTaskU3Ec__AnonStorey0__ctor_mA788F542E33A4820FB5D5940955D9516D0C51D39,
+	U3CGetTaskU3Ec__AnonStorey0_U3CU3Em__0_mFC6340F68B8E4E596967CB4A864D6C925D5F5655,
+	Utilities_MakeVariant_mBDECFCA5CCFAF0CF50DDB1DBD34F926031A2CE4A,
+	InternalValueListener__cctor_m6465810D102962F7FEFB7876E4F75AB72B0D5877,
+	InternalValueListener__ctor_m33BF6880327D5F9AFA1A432DE72323D38730FAC7,
+	InternalValueListener_TryGetListener_m8D191EB665078398BE6D37D59B164BD3AF166F7E,
+	InternalValueListener_OnValueChangedHandler_mA40B20FA26915907919D53C45D5BF5395ACE2BDA,
+	InternalValueListener_OnCancelledHandler_mB24789B71507858E38EB48965B0D9FBD031959F7,
+	InternalValueListener_DestroyCppListener_m48A32F634EC202FD14D8222B9FE8A002A665FBF1,
+	OnValueChangedDelegate__ctor_m1E5CB914A443BBEA65327C6909B8F35834782602,
+	OnValueChangedDelegate_Invoke_m001BBEE0573C71B012477DB670E05E5A0188A501,
+	OnValueChangedDelegate_BeginInvoke_mE5F7C9F84E78214ECD0C32D76FA139EAA6A88AB8,
+	OnValueChangedDelegate_EndInvoke_m0F55B7BE7BC79401D21D6664E953EA0EF212EA60,
+	OnCancelledDelegate__ctor_mAA318FB742F18120A243B47FC6D72140EEC1DE16,
+	OnCancelledDelegate_Invoke_m90766BC908B6716A87215FDD6AC72B618E5BAD14,
+	OnCancelledDelegate_BeginInvoke_mD08C61418D9963286D9DC1F9CCC87759605A3BB9,
+	OnCancelledDelegate_EndInvoke_mB881B5BEC7CD77CF90FB393DBEEAFAAF05DF44EF,
+	U3COnValueChangedHandlerU3Ec__AnonStorey0__ctor_mE348CB520803C141F981FF68AD8109BB8CD9155A,
+	U3COnValueChangedHandlerU3Ec__AnonStorey0_U3CU3Em__0_mDB964A1EF1CA2AA7BA57124523322644BD33CFB4,
+	U3COnCancelledHandlerU3Ec__AnonStorey1__ctor_m16DA70EA0E84751261B659883535CD3CDC442FBF,
+	U3COnCancelledHandlerU3Ec__AnonStorey1_U3CU3Em__0_mDE1B11AAEBA15DBB45A24DCB6D80A3F36CB51D81,
+	InternalListener__ctor_m79710E8F1FD901F6E8C6AEA2B5041B4FB06C905E,
+	InternalListener_TryGetListener_mA71371CAFDD9DF4B40B34441D7186E9FAA3159EC,
+	InternalListener_Finalize_m402FCBC2490EE8E44B94C4A77F71F086ED888FD5,
+	InternalListener_Dispose_m2064F1B8862AF3AB856E8F8477DAAD68B7642FCE,
+	NULL,
+	InternalListener__cctor_m1939E8AD0030007246A62C76EEA1455EC489E1A1,
+	InternalChildListener__cctor_mA4D2CC82B36620D623C9679CC1FA24409F63C0D1,
+	InternalChildListener__ctor_m694203006FE0205106688331909EB8E290733831,
+	InternalChildListener_TryGetListener_m41E36427FAA5985CB8FF0F6BEADB1A1146E85A18,
+	InternalChildListener_OnChildChangeHandler_m111693C2C3696B07FE2D29391D27DEF39BCF5BB5,
+	InternalChildListener_OnChildRemovedHandler_mC4C07D126798B369EF865A3E0E6CCE30900C032F,
+	InternalChildListener_OnCancelledHandler_m6027BABC8ED7A3782F0660E4D4BC1ACDBBFC19FF,
+	InternalChildListener_DestroyCppListener_m5C9240D0BCC8DCAE2D8AA0EA81D238AAF18BB00D,
+	OnCancelledDelegate__ctor_mAC9F991B98CED300FF2BC7902FF1DB48253E641C,
+	OnCancelledDelegate_Invoke_m197A669A3FDAA0A2D46DA26EB8EF65FA2576E6AA,
+	OnCancelledDelegate_BeginInvoke_m3246E7F8127D7DF49C21627DEEF4A6D3327A12FE,
+	OnCancelledDelegate_EndInvoke_m305956966B7B06FB9E599C3B28D1BE19FB82A632,
+	OnChildChangeDelegate__ctor_m905FC42ABBD238AD00D4CA41B4FEA96EB9E16D23,
+	OnChildChangeDelegate_Invoke_m0E282F7DBE982B5A4A8073FA83D82002CE243355,
+	OnChildChangeDelegate_BeginInvoke_m0F1CE19FFA21A7B95B6B3C2A581369229C0AB1EC,
+	OnChildChangeDelegate_EndInvoke_m1B731E38F19BA6A18E47970D7CA0EBDCB3068575,
+	OnChildRemovedDelegate__ctor_m3DA4B6DA14D6A7733B2D3BF6F5721F7E8A811E84,
+	OnChildRemovedDelegate_Invoke_mFAE8292457FB6B629C4E6E8B500732D82762B29B,
+	OnChildRemovedDelegate_BeginInvoke_m48FACEFA435E90F16907B5B227CF0D800958C0EF,
+	OnChildRemovedDelegate_EndInvoke_m835630F0A71AC34DD23DB5D4D4591C514BC68B89,
+	U3COnChildChangeHandlerU3Ec__AnonStorey0__ctor_m3F0222C7469ACF362ACF082D5A7B3E95194D3FA6,
+	U3COnChildChangeHandlerU3Ec__AnonStorey0_U3CU3Em__0_m8D036E948FE5F0D8033360D715E7E2F3282DC29E,
+	U3COnChildRemovedHandlerU3Ec__AnonStorey1__ctor_m7E6AE23F4E493961862651CCCDD4F7D8BC58E493,
+	U3COnChildRemovedHandlerU3Ec__AnonStorey1_U3CU3Em__0_mAE7AAAFE60ACB5EB41753A9D7FD24987399C11FF,
+	U3COnCancelledHandlerU3Ec__AnonStorey2__ctor_mFFE132800267C1A72DFBDC65B4F1F1E10FBEABE0,
+	U3COnCancelledHandlerU3Ec__AnonStorey2_U3CU3Em__0_mC2B193143B43BA821FF81A8AFDEAE4C94148690E,
+	ValueChangedEventArgs__ctor_m379BA084F6E53F5B2DD49386D43DF6AF94CACF81,
+	ValueChangedEventArgs__ctor_m4FDC6BB1BC5E618849D97A391F097F726CE997E4,
+	ValueChangedEventArgs_set_Snapshot_mA7EF06296508E6B5632A967C65E17F632E445A71,
+	ValueChangedEventArgs_get_DatabaseError_mDA4237FD56F013E2FAF491B80E9DA90FC8513242,
+	ValueChangedEventArgs_set_DatabaseError_mF56E13C79AC85F6415ECABC7E63B0C86EB864D40,
+	Query__ctor_m552F3EFCA95A9C93A383A34876A17C3591230A36,
+	NULL,
+	Query_WrapInternalDataSnapshotTask_mD66B30C95FF21216495D9F24C95C388DDE50DD83,
+	Query_GetValueAsync_m1DE61C007517461EE4E0789CE6A480570B1564C8,
+	U3CWrapInternalDataSnapshotTaskU3Ec__AnonStorey0__ctor_m5BA902CFC5CFE89B09B422D5F4A967CBA50CDE05,
+	U3CWrapInternalDataSnapshotTaskU3Ec__AnonStorey0_U3CU3Em__0_m22FFF028B3E9BB0B1DDCBD737A2EFEA9578B5DC0,
+	FirebaseDatabase__ctor_m3DCF10547AE51EC2489E9D5721C2C2C8F4BB4312,
+	FirebaseDatabase_Finalize_mDFB31597C9E456D5A72953FC2B07058BA97C5A66,
+	FirebaseDatabase_OnAppDisposed_m47C09B6E45483FFE71C9D0933E1F2B4829504359,
+	FirebaseDatabase_Dispose_m80A3AEFD4797B025F808225460CDE1AE5652BC12,
+	FirebaseDatabase_get_App_m93AA2C6AE670C913DED5B495355537612429DEBD,
+	FirebaseDatabase_set_App_mAB8EC36294084545DDF7F18AFDB2DBA696D5E037,
+	FirebaseDatabase_get_DefaultInstance_m75D618D373BDD71ACEA9A351126AB3F937B69D4A,
+	FirebaseDatabase_GetInstance_m76521A08A8A8C5388359A14B8F880AE83CE73110,
+	FirebaseDatabase_GetInstance_mF0005360FD07073793D18180159FCAAAFE21C539,
+	FirebaseDatabase_GetReference_mEB739ABE53B33393ED40B60B03C44AEB4525BD85,
+	FirebaseDatabase__cctor_m7CA2F9F63C990ABFEAC91DC0C53ABFF9DFE86583,
+	DatabaseReference__ctor_mD496EC179B693747AF9272C2F2CFAB37AF2771B1,
+	DatabaseReference_get_Database_m5B48BFC961F40B393872F5CDCBAC0E08CF6C639F,
+	DatabaseReference_set_Database_m282D95F9AD43BBE5C0730E1EA650BF37ADFADAA2,
+	DatabaseReference_Child_mE0A765A60474B18C36B908672485FC79D8676118,
+	DatabaseReference_SetValueAsync_mD4504503AA31C8000522284B7F105154F845E043,
+	DatabaseReference_ToString_m2BB61CB7DDDCDDADA46F1C6EA588938F2413FDD6,
+	DatabaseReference_Equals_mB1C04B6F3F60D03B3097F2BE0D5B387EAFE2FC24,
+	DatabaseReference_GetHashCode_mE3528E66EEB75B578CA801273B3209DC2F29A345,
+	DatabaseReference_WrapInternalDefaultTask_m503C41969A7AF3D1C67210D73A53F1A82566C418,
+	U3CWrapInternalDefaultTaskU3Ec__AnonStorey1__ctor_mCC02637695ECB17EEC2E7B4E63AF6D57A9DFBFDC,
+	U3CWrapInternalDefaultTaskU3Ec__AnonStorey1_U3CU3Em__0_m63B754C86A483639558EF7E00FEE1F287CF4D007,
+	DatabaseException__ctor_m5067A29469F9322D223E0A094F11D696548E9E7F,
+	DatabaseException__ctor_mE3245AEE1FB5FA49586C2798D432BC6A0D504353,
+	DatabaseError__cctor_mFEFA69C2061DBC1CF702174AC717155254531906,
+	DatabaseError__ctor_m38B3479297DC749697FAEF989342AC0E34A39C31,
+	DatabaseError_set_Code_m17A129E452E44A91FB0CD1D1303C8CFF3F0793C2,
+	DatabaseError_get_Message_mB65407A635E3D7C51491173E3B6FA7262BC509AF,
+	DatabaseError_set_Message_m54166FC06EE023916325942F18AD855E5548804F,
+	DatabaseError_set_Details_m4C35CD0623CE87CA0D1941A7475320DF51BB25CA,
+	DatabaseError_ErrorToCode_mA2AFFC06A2E8A6C5A71394A01C3D759402C5D231,
+	DatabaseError_FromError_m74CA7DACBF40FE664D4B088E9B8A615D61DC769B,
+	DatabaseError_ToString_m58D8F77BE9B3CD0CABEAFAD51BBC03A128391BD1,
+	DataSnapshot__ctor_mB741141480AB067EC1E1BF5EFAA57EC52F6AA590,
+	DataSnapshot_CreateSnapshot_m95E10FC734582079840902AA6B7734600FFD88E2,
+	DataSnapshot_get_Value_mD2CC38B1B1053529402B7BCAB2129C80D63E9821,
+	DataSnapshot_get_ChildrenCount_m83156FA2994A52EC998447FE606CCADA08283C65,
+	DataSnapshot_get_Key_m5FE3B41597AB6C593B50F13F2EF059DAED8C3E74,
+	DataSnapshot_Child_m51E603CB4C964BF967BAEA9E7332FEA365C51F5A,
+	DataSnapshot_GetValue_m19EF009E5CD1AE6F6A9EBD6C5475682BEF7E950E,
+	DataSnapshot_ToString_m900D014709B804D80A3550913A3DB12B18B5630A,
+	ChildChangedEventArgs__ctor_mEFA05E8BE4CF521CCD301438B1D0D2AAAD4646F8,
+	ChildChangedEventArgs__ctor_mD42C6C55669872BB1FE653538F28E73C3F9AA9BD,
+	ChildChangedEventArgs_set_Snapshot_m8B1970EEE6D0F1E90AEF6BDA0ED94F0C38F33922,
+	ChildChangedEventArgs_set_DatabaseError_m2AFF0A9E85368545CB897E95C39247301254440A,
+	ChildChangedEventArgs_set_PreviousChildName_mA4DE9565B9657161571B217BAD3940297B6F110C,
+};
+static const int32_t s_InvokerIndices[223] = 
+{
+	2070,
+	1545,
+	1849,
+	1945,
+	2027,
+	1731,
+	1544,
+	2027,
+	2027,
+	1731,
+	1922,
+	1963,
+	1945,
+	2027,
+	1945,
+	1987,
+	2029,
+	1865,
+	2029,
+	1665,
+	2027,
+	1987,
+	1731,
+	1728,
+	1963,
+	1948,
+	1948,
+	2070,
+	1201,
+	1221,
+	1665,
+	2030,
+	2030,
+	2030,
+	2030,
+	2030,
+	2030,
+	2030,
+	2030,
+	2030,
+	2030,
+	2030,
+	1865,
+	1865,
+	1865,
+	659,
+	1024,
+	332,
+	1024,
+	659,
+	660,
+	200,
+	1024,
+	2064,
+	2030,
+	2055,
+	2070,
+	1201,
+	2030,
+	1968,
+	659,
+	815,
+	332,
+	815,
+	647,
+	1201,
+	1201,
+	1189,
+	815,
+	815,
+	1169,
+	647,
+	1201,
+	1201,
+	1169,
+	1189,
+	2029,
+	1865,
+	2029,
+	1665,
+	647,
+	1201,
+	1201,
+	815,
+	1157,
+	1169,
+	1169,
+	647,
+	1909,
+	1201,
+	1201,
+	815,
+	1574,
+	2030,
+	647,
+	1201,
+	1201,
+	1968,
+	1201,
+	1024,
+	1016,
+	2028,
+	481,
+	1016,
+	1169,
+	2070,
+	659,
+	1201,
+	499,
+	1024,
+	659,
+	1014,
+	322,
+	1024,
+	1201,
+	1201,
+	1968,
+	2070,
+	660,
+	1789,
+	1852,
+	1633,
+	1201,
+	659,
+	608,
+	186,
+	1024,
+	659,
+	393,
+	106,
+	1024,
+	1201,
+	1201,
+	1201,
+	1201,
+	1201,
+	1789,
+	1201,
+	1201,
+	1201,
+	2070,
+	2070,
+	660,
+	1789,
+	1479,
+	1852,
+	1633,
+	1201,
+	659,
+	393,
+	106,
+	1024,
+	659,
+	244,
+	55,
+	1024,
+	659,
+	608,
+	186,
+	1024,
+	1201,
+	1201,
+	1201,
+	1201,
+	1201,
+	1201,
+	1024,
+	1024,
+	1024,
+	1169,
+	1024,
+	660,
+	-1,
+	815,
+	1169,
+	1201,
+	1024,
+	660,
+	1201,
+	660,
+	1201,
+	1169,
+	1024,
+	2055,
+	1968,
+	1751,
+	815,
+	2070,
+	660,
+	1169,
+	1024,
+	815,
+	815,
+	1169,
+	903,
+	1157,
+	815,
+	1201,
+	1024,
+	1024,
+	660,
+	2070,
+	397,
+	1014,
+	1169,
+	1024,
+	1024,
+	1924,
+	1744,
+	1169,
+	270,
+	1751,
+	1169,
+	1158,
+	1169,
+	815,
+	816,
+	1169,
+	660,
+	1024,
+	1024,
+	1024,
+	1024,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[21] = 
+{
+	{ 0x06000020, 24,  (void**)&SWIGExceptionHelper_SetPendingApplicationException_m0F996413862002E3DD7FDD548EA24FBA1FF5AB09_RuntimeMethod_var, 0 },
+	{ 0x06000021, 28,  (void**)&SWIGExceptionHelper_SetPendingArithmeticException_mFF75740AD491554899C097E0DADC53F7BD9B648B_RuntimeMethod_var, 0 },
+	{ 0x06000022, 29,  (void**)&SWIGExceptionHelper_SetPendingDivideByZeroException_mECC442D4BA10495F1BD419C6AD29532037348E84_RuntimeMethod_var, 0 },
+	{ 0x06000023, 31,  (void**)&SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m0A7C01CC0882A4E72DF371C5072D20C368744F41_RuntimeMethod_var, 0 },
+	{ 0x06000024, 32,  (void**)&SWIGExceptionHelper_SetPendingInvalidCastException_m3173701684EF764B16D4DAE820BD88C8A5311AC8_RuntimeMethod_var, 0 },
+	{ 0x06000025, 33,  (void**)&SWIGExceptionHelper_SetPendingInvalidOperationException_m3C325A55848E3FC203DA02C6B477FD51C8467CEB_RuntimeMethod_var, 0 },
+	{ 0x06000026, 30,  (void**)&SWIGExceptionHelper_SetPendingIOException_m37109E9C6FE3E8E0A6670C71B07FD3AA6BB87294_RuntimeMethod_var, 0 },
+	{ 0x06000027, 34,  (void**)&SWIGExceptionHelper_SetPendingNullReferenceException_m2B27B45C6AF0D649049D2B61E4489E3A44CAA0A5_RuntimeMethod_var, 0 },
+	{ 0x06000028, 35,  (void**)&SWIGExceptionHelper_SetPendingOutOfMemoryException_m1F571A4058F2A2AC6170CBBA6A3332460BE78EFE_RuntimeMethod_var, 0 },
+	{ 0x06000029, 36,  (void**)&SWIGExceptionHelper_SetPendingOverflowException_mD37F18C4EE97E0C708E7C336F8391E8F4C87B9CD_RuntimeMethod_var, 0 },
+	{ 0x0600002A, 37,  (void**)&SWIGExceptionHelper_SetPendingSystemException_mA373DD8147413E53F25953713F3785AFCA8D4CE3_RuntimeMethod_var, 0 },
+	{ 0x0600002B, 25,  (void**)&SWIGExceptionHelper_SetPendingArgumentException_m814FE6192698629E0DFBB16FEA3E3173833B47B3_RuntimeMethod_var, 0 },
+	{ 0x0600002C, 26,  (void**)&SWIGExceptionHelper_SetPendingArgumentNullException_mEDFDDC2387E881554214C5B8DE33BF35215B7042_RuntimeMethod_var, 0 },
+	{ 0x0600002D, 27,  (void**)&SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mA88C63402F8142B4B866BC0DD46EE47853411DC2_RuntimeMethod_var, 0 },
+	{ 0x0600003C, 38,  (void**)&SWIGStringHelper_CreateString_m1B4CB3A2C3DCEF73AF006FF16442D1EEFDDB6384_RuntimeMethod_var, 0 },
+	{ 0x06000066, 1,  (void**)&Future_InternalDataSnapshot_SWIG_CompletionDispatcher_m7905C61D5D9AE818AA4AC3F0F838FA01B5E4D852_RuntimeMethod_var, 0 },
+	{ 0x06000079, 6,  (void**)&InternalValueListener_OnValueChangedHandler_mA40B20FA26915907919D53C45D5BF5395ACE2BDA_RuntimeMethod_var, 0 },
+	{ 0x0600007A, 5,  (void**)&InternalValueListener_OnCancelledHandler_mB24789B71507858E38EB48965B0D9FBD031959F7_RuntimeMethod_var, 0 },
+	{ 0x06000091, 3,  (void**)&InternalChildListener_OnChildChangeHandler_m111693C2C3696B07FE2D29391D27DEF39BCF5BB5_RuntimeMethod_var, 0 },
+	{ 0x06000092, 4,  (void**)&InternalChildListener_OnChildRemovedHandler_mC4C07D126798B369EF865A3E0E6CCE30900C032F_RuntimeMethod_var, 0 },
+	{ 0x06000093, 2,  (void**)&InternalChildListener_OnCancelledHandler_m6027BABC8ED7A3782F0660E4D4BC1ACDBBFC19FF_RuntimeMethod_var, 0 },
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x060000AD, { 0, 2 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[2] = 
+{
+	{ (Il2CppRGCTXDataType)3, 4915 },
+	{ (Il2CppRGCTXDataType)3, 4914 },
+};
+extern const CustomAttributesCacheGenerator g_Firebase_Database_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Firebase_Database_CodeGenModule;
+const Il2CppCodeGenModule g_Firebase_Database_CodeGenModule = 
+{
+	"Firebase.Database.dll",
+	223,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	21,
+	s_reversePInvokeIndices,
+	1,
+	s_rgctxIndices,
+	2,
+	s_rgctxValues,
+	NULL,
+	g_Firebase_Database_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

@@ -133,8 +133,10 @@ public class BonusStageManager : MonoBehaviour
             case GameManager.StageNum.Stomach:
                 this.gameObject.GetComponent<StomachStageManager>().StageOff();
                 GameManager.instasnce.curStage = GameManager.StageNum.Intestine;
+          
                 break;
             case GameManager.StageNum.Intestine:
+               
                 break;
             default:
                 break;
@@ -197,7 +199,16 @@ public class BonusStageManager : MonoBehaviour
     {
         StageClear();
         Debug.Log("½ÇÇàµÊ");
-        StageChangeUI.SetActive(true);
+        if (GameManager.instasnce.curStage == GameManager.StageNum.Intestine)
+        {
+            GameManager.instasnce.GameEndUIon();
+        }
+        else
+        {
+
+            StageChangeUI.SetActive(true);
+        }
+      
         GameManager.instasnce.UIControllOn();
 
     }

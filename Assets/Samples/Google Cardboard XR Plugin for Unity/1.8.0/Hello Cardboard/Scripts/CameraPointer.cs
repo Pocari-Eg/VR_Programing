@@ -42,9 +42,9 @@ public class CameraPointer : MonoBehaviour
             {
                 // New GameObject.
                 if (_gazedAtObject != null)
-              
                     _gazedAtObject?.SendMessage("OnPointerExit");
                     _gazedAtObject = hit.transform.gameObject;
+                if(_gazedAtObject!=null&&_gazedAtObject.gameObject.tag=="Cell")
                     _gazedAtObject.SendMessage("OnPointerEnter");
               
             }

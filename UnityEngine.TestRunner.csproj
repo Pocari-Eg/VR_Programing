@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D99E679D-50DE-FD04-DE64-6407AD2A5471}</ProjectGuid>
+    <ProjectGuid>{911E2E41-43DB-CC4D-6770-51F3A5C8D16F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.TestRunner</AssemblyName>
@@ -105,9 +105,9 @@
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\NUnitExtensions\Commands\OuterUnityTestActionCommand.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\Utils\AssemblyProvider\IAssemblyWrapper.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\Assertions\Is.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\Utils\AssemblyProvider\AssemblyWrapper.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\Utils\Vector3ComparerWithEqualsOperator.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\NUnitExtensions\Filters\CategoryFilterExtended.cs" />
+     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\Utils\AssemblyProvider\AssemblyWrapper.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\TestRunner\TestPlatform.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\Utils\TestRunCallbackAttribute.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.27\UnityEngine.TestRunner\NUnitExtensions\BaseDelegator.cs" />
@@ -388,7 +388,7 @@
  <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/cksdu/Desktop/VR_Project/VR_Programing/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/cksdu/Desktop/VR_Project/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/2020.3.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

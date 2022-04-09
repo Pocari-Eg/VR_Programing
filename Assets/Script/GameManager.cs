@@ -17,14 +17,20 @@ public class GameManager : MonoBehaviour
     GameObject Player;
     [SerializeField]
     GameObject m_Camera;
+    
 
+
+  public  Text CellCount;
+
+   public string PlayerName;
     [SerializeField]
-    Text CellCount;
+    Text Point;
     int cellnum;
 
     [SerializeField]
     GameObject GameOverUI;
-
+    [SerializeField]
+    GameObject GameEndUi;
     public StageNum curStage = StageNum.Respiratory;
 
 
@@ -104,17 +110,25 @@ public class GameManager : MonoBehaviour
                 break;
         }
     }
-    void Gameover()
+ public   void Gameover()
     {
         m_bonusStage.StageClear();
         m_bonusStage.StageOff();
         m_bonusStage.StageChangeUI.SetActive(false);
         m_ResStage.StageOff();
         m_StomStage.StageOff();
-
-        GameOverUI.SetActive(true);
+        Player.GetComponent<ForceMove>().viewMode=1;
         UIControllOn();
-    }
+        Point.text = cellnum.ToString();
+        GameEndUi.SetActive(false);
+        GameOverUI.SetActive(true);
+        
 
+
+    }
+    public void GameEndUIon()
+    {
+        GameEndUi.SetActive(true);
+    }
 
 }
